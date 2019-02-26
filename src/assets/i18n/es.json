@@ -1,0 +1,12 @@
+{
+  "CORE":{
+    "HEADER":{
+      "PRODUCTS":"Productos",
+      "GALLERY":"Galería"
+    }
+  },
+  "HOME": {
+    "TITLE": "Hola Mundo",
+    "SELECT": "Change language"
+  }
+}
