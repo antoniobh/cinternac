@@ -27,6 +27,14 @@
       </div>
     </div>
     <div class="container">
+      <span>
+
+          <ul class="nav nav-lang">
+            <li class="nav-item"><mat-icon>language</mat-icon></li>
+            <li><a (click)="setLang('es')">{{'lang.es' | translate}}</a></li>
+            <li><a (click)="setLang('en')">{{'lang.en' | translate}}</a></li>
+          </ul>
+      </span>
       <div class="socials pt-1">
         <ul>
           <li><a href="" class="social-icon linkedin"></a></li>

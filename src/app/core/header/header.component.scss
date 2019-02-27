@@ -1,3 +1,8 @@
+.companyName{
+  font-weight: bolder;
+  font-size: 20px;
+}
+
 #home-header {
   position: absolute;
   width: 100%;
@@ -74,7 +79,7 @@
       height: auto !important;
   }
   .home-logo {
-      margin-left: 15px; 
+      margin-left: 15px;
   }
   .top-menu {
       display: none !important;

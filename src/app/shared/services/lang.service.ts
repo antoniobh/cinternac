@@ -1,8 +1,6 @@
 import {Injectable} from '@angular/core';
 
-@Injectable(){
-
-  }
+@Injectable(){}
 
   export class LangService{
     lang:string = 'es';

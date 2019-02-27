@@ -1,4 +1,8 @@
 {
+  "lang":{
+    "es":"Spanish",
+    "en":"English"
+  },
   "CORE":{
     "HEADER":{
       "PRODUCTS":"Products",

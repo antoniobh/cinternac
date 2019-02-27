@@ -15,9 +15,4 @@ export class HomeComponent{
     ) {
          translate.setDefaultLang(this.lang.getLang());
       }
-
-      changeLang(lang){
-        this.lang.setLang(lang);
-        this.translate.use(this.lang.getLang());
-      }
 }

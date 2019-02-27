@@ -1,12 +1,24 @@
 {
+  "COMPANY":{
+    "NAME":"Carga Internacional"
+  },
+  "lang":{
+    "es":"Español",
+    "en":"Ingles"
+  },
   "CORE":{
     "HEADER":{
       "PRODUCTS":"Productos",
-      "GALLERY":"Galería"
+      "GALLERY":"Galería",
+      "CONTACT":"Contacto"
     }
   },
   "HOME": {
-    "TITLE": "Hola Mundo",
-    "SELECT": "Change language"
+    "INTRO":{
+      "WELCOMETEXT":"Somos CargaInternacional.cr",
+      "ADVANTAGE1":"Variedad: En Carga Internacional le ofrecemos justo lo que está buscando. ",
+      "ADVANTAGE2":"Calidad: Traemos nuestros productos de diversas partes del mundo para ofrecerle lo mejor de él. ",
+      "ADVANTAGE3":"Cercania: Recuerde que estamos a su disposición siempre. "
+    }
   }
 }
