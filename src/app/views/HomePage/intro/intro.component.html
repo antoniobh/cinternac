@@ -28,17 +28,15 @@
 
       </div>
       <div fxLayout="row" fxLayout.lt-sm="column">
-        <button mat-raised-button mat-lg-button color="primary" (click)="buyEgret()"><mat-icon>add_shopping_cart</mat-icon> BUY EGRET</button>
-        <span fxFlex="20px"></span>
-        <button mat-raised-button mat-lg-button id="frontend-btn" (click)="getNGLanding()"><mat-icon>get_app</mat-icon> ANGULAR LANDING</button>
+        <button mat-raised-button mat-lg-button><mat-icon>info</mat-icon>  {{"HOME.INTRO.MEETMORE" | translate }}</button>
       </div>
     </div>
     <span fxFlex.lt-md="30px" fxFlex="0"></span>
     <div fxFlex="50">
       <div class="intro-product">
         <a matRipple class="intro-product-link" href="https://themeforest.net/item/egret-angular-4-material-design-admin-template/20161805?ref=mh_rafi" target="_blank">
-          <div class="price">$24</div>
-          <span class="price-text">Buy From ThemeForest</span>
+          <!-- <div class="price">$24</div>
+          <span class="price-text">Buy From ThemeForest</span> -->
         </a>
         <img mat-card-image src="assets/images/egret-screen.png" [style.margin]="'0 !important'">
       </div>

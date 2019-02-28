@@ -1,47 +1,105 @@
-<footer class="home-footer">
-  <section class="home-footer-top">
-    <div class="container">
-      <div fxLayout="row" fxLayout.lt-md="column" fxLayoutWrap="nowrap">
-          <div class="row col pt-2">
-            <div class="col">
-              <h4 style="color:white">
-                <b>Carga <br> Internacional</b>
-              </h4>
-            </div>
-            <div class="col">
-              <h4 style="color:white">
-                <b>Productos</b>
-              </h4>
+<!-- Footer -->
+<footer style="background:#E9E6EF; padding-top:10px;" class="page-footer font-small unique-color-dark">
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left mt-5">
 
-              <ul class="list">
-                <li class="item"><a href="#">      <span>{{ 'HOME.TITLE' | translate }}</span></a></li>
-              </ul>
-              ++
-            </div>
-            <div class="col">
-              <h4 style="color:white">
-                <b>Empresa</b>
-              </h4>
-            </div>
-          </div>
+      <!-- Grid row -->
+      <div class="row mt-3">
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+          <!-- Content -->
+          <h6 class="text-uppercase font-weight-bold">{{'COMPANY.NAME' | translate}}</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>{{'FOOTER.MOTTO' | translate}}</p>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold">{{'FOOTER.COLUMN1.TITLE' | translate}}</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>
+            <a [routerLink]="'/landing/productos#intro-section'">{{"FOOTER.COLUMN1.ITEMS.FRUITS" | translate}}</a>
+          </p>
+          <p>
+            <a [routerLink]="'/landing/productos#intro-section'">{{"FOOTER.COLUMN1.ITEMS.SEED" | translate}}</a>
+          </p>
+          <p>
+            <a [routerLink]="'/landing/productos#intro-section'">{{"FOOTER.COLUMN1.ITEMS.TUBER" | translate}}</a>
+          </p>
+          <p>
+            <a [routerLink]="'/landing/productos#intro-section'">{{"FOOTER.COLUMN1.ITEMS.SPICES" | translate}}</a>
+          </p>
+          <p>
+            <a [routerLink]="'/landing/productos#intro-section'">{{"FOOTER.COLUMN1.ITEMS.BULBS" | translate}}</a>
+          </p>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold">{{'FOOTER.COLUMN2.TITLE' | translate}}</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>
+            <a [routerLink]="'/landing/productos#intro-section'">{{"FOOTER.COLUMN2.ITEMS.HISTORY" | translate}}</a>
+          </p>
+          <p>
+            <a [routerLink]="'/landing/productos#intro-section'">{{"FOOTER.COLUMN2.ITEMS.PRIVACY" | translate}}</a>
+          </p>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold">{{'FOOTER.COLUMN3.TITLE' | translate}}</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>
+            <i class="fas fa-home mr-3"></i> {{'FOOTER.COLUMN3.ADDRESS' | translate}}</p>
+          <p>
+            <i class="fas fa-envelope mr-3"></i><a href="mailto:{{'FOOTER.COLUMN3.EMAIL' | translate}}?subject=Información">{{'FOOTER.COLUMN3.EMAIL' | translate}}</a></p>
+          <p>
+            <i class="fas fa-envelope mr-3"></i><a href="tel:{{'FOOTER.COLUMN3.FULLTEL' | translate}}">{{'FOOTER.COLUMN3.TEL' | translate}}</a></p>
+
+        </div>
+        <!-- Grid column -->
+
       </div>
-    </div>
-    <div class="container">
-      <span>
+      <!-- Grid row -->
 
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">
+      <div class="container">
+        <span>
+
+
+        </span>
+        <div class="socials pt-1">
           <ul class="nav nav-lang">
             <li class="nav-item"><mat-icon>language</mat-icon></li>
             <li><a (click)="setLang('es')">{{'lang.es' | translate}}</a></li>
             <li><a (click)="setLang('en')">{{'lang.en' | translate}}</a></li>
+            <li><a href="" class="social-icon linkedin"></a></li>
+            <li><a href="" class="social-icon twitter"></a></li>
+            <li><a href="" class="social-icon facebook"></a></li>
           </ul>
-      </span>
-      <div class="socials pt-1">
-        <ul>
-          <li><a href="" class="social-icon linkedin"></a></li>
-          <li><a href="" class="social-icon twitter"></a></li>
-          <li><a href="" class="social-icon facebook"></a></li>
-        </ul>
+        </div>
       </div>
     </div>
-  </section>
-</footer>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->

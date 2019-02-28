@@ -21,14 +21,15 @@ import { SharedModule } from '../shared/shared.module';
 import { ViewsRoutes } from "./views.routing";
 
 import { IntroComponent } from './HomePage/intro/intro.component';
-import { PortfolioComponent } from './HomePage/portfolio/portfolio.component';
 import { HomeComponent } from './HomePage/home.component';
+import { ProductsComponent } from './ProductsPage/products.component';
 
 import { WINDOW_PROVIDERS } from '../shared/helpers/window.helper';
 
 import {
   HeaderComponent,
-  FooterComponent
+  FooterComponent,
+  CtaComponent
 }from './../core';
 
 
@@ -80,9 +81,10 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
   declarations: [
     IntroComponent,
     HomeComponent,
+    ProductsComponent,
     HeaderComponent,
-    PortfolioComponent,
     FooterComponent,
+    CtaComponent
   ],
   providers: [WINDOW_PROVIDERS]
 

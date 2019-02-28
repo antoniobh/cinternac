@@ -18,7 +18,45 @@
       "WELCOMETEXT":"Somos CargaInternacional.cr",
       "ADVANTAGE1":"Variedad: En Carga Internacional le ofrecemos justo lo que está buscando. ",
       "ADVANTAGE2":"Calidad: Traemos nuestros productos de diversas partes del mundo para ofrecerle lo mejor de él. ",
-      "ADVANTAGE3":"Cercania: Recuerde que estamos a su disposición siempre. "
+      "ADVANTAGE3":"Cercania: Recuerde que estamos a su disposición siempre. ",
+      "MEETMORE":"Conoce más… "
     }
+  },
+  "FOOTER":{
+    "MOTTO":"lema",
+    "COLUMN1":{
+      "TITLE":"Productos",
+      "ITEMS":{
+        "FRUITS":"Frutas",
+        "SEED":"Semillas",
+        "TUBER":"Tubérculos",
+        "SPICES":"Especias",
+        "BULBS":"Bulbos"
+      }
+    },
+    "COLUMN2":{
+      "TITLE":"Empresa",
+      "ITEMS":{
+        "HISTORY":"Historia",
+        "PRIVACY":"Política de privacidad"
+      }
+    },
+    "COLUMN3":{
+      "TITLE":"Contacto",
+      "ADDRESS":"Heredia, Costa Rica",
+      "EMAIL":"info@cargainternacional.com",
+      "TEL":"####-####",
+      "FULLTEL":"+50622622222"
+    }
+  },
+  "PRODUCTS":{
+    "CTAFRUITS":{
+      "TITLE":"Frutas",
+      "SUBTITLE":"Deliciosas y frescas!"
+    },
+    "CTASEED":{
+      "TITLE":"Semillas",
+      "SUBTITLE":"Crujientes y sabrosas!"
+      }
   }
 }
