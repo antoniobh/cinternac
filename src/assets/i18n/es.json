@@ -57,6 +57,48 @@
     "CTASEED":{
       "TITLE":"Semillas",
       "SUBTITLE":"Crujientes y sabrosas!"
+    },
+    "FRUITS":{
+      "APPLE":{
+          "TITLE":"Manzanas",
+          "CONTENT":"¡Con una manzana al día, aleja al doctor de su vida!Cuide su corazón con nuestras jugosas manzanas."
+      },
+      "GRAPES":{
+          "TITLE":"Uvas",
+          "CONTENT":"Manténgase siempre joven con nuestras uvas. ¡Están cargadas de antioxidantes!"
+      },
+      "PEAR":{
+          "TITLE":"Peras",
+          "CONTENT":"Todas las vitaminas que necesita para estar sano, estan en nuestras deliciosas peras. "
+      },
+      "TANGERINE":{
+          "TITLE":"Mandarinas",
+          "CONTENT":"¡La belleza no tiene que doler! Nuestras mandarinas le ayudan a mantener la piel brillante de una manera deliciosa."
+      },
+      "ORANGE":{
+          "TITLE":"Naranjas",
+          "CONTENT":"Manténgase joven con las deliciosas naranjas que Carga Internacional  trae para usted de todos los rincones del mundo."
+      },
+      "KIWI":{
+          "TITLE":"Kiwis",
+          "CONTENT":"Con nuestros deliciosos kiwis, hacer dieta es un placer. Esté siempre hidratado con su delicioso sabor."
+      },
+      "NECTARINE":{
+          "TITLE":"Nectarinas",
+          "CONTENT":"¿Está a dieta? ¡Hágala divertida! Las nectarinas contienen 40 calorías cada 100 gramos. ¿Puede creerlo?"
+      },
+      "PLUMS":{
+          "TITLE":"Ciruelas",
+          "CONTENT":"¿Sabía que una ciruela puede mejorar su estado de ánimo? ¡Así como el chocolate, pero cuidando la linea!"
+      },
+      "PEACH":{
+          "TITLE":"Melocotones",
+          "CONTENT":"¿Ha visto lo tersos y suaves que son los melocotones? Cómalos y vea el mismo efecto en su piel."
+      },
+      "AVOCADO":{
+          "TITLE":"Aguacates",
+          "CONTENT":"Además de las muchas maravillas que tienen para su salud, son deliciosos. ¿Qué más necesita?"
       }
+    }
   }
 }
