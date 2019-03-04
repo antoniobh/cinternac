@@ -23,6 +23,12 @@ import { ViewsRoutes } from "./views.routing";
 import { IntroComponent } from './HomePage/intro/intro.component';
 import { HomeComponent } from './HomePage/home.component';
 import { ProductsComponent } from './ProductsPage/products.component';
+import { GalleryComponent } from './GalleryPage/gallery.component';
+import { ContactComponent } from './ContactPage/contact.component';
+import { ContactFormComponent } from './ContactPage/ContactForm/contactForm.component';
+import { AboutComponent } from './Company/AboutPage/about.component';
+import { PoliticsComponent } from './Company/PoliticsPage/politics.component';
+
 
 import { WINDOW_PROVIDERS } from '../shared/helpers/window.helper';
 
@@ -82,8 +88,13 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
     IntroComponent,
     HomeComponent,
     ProductsComponent,
+    GalleryComponent,
+    ContactComponent,
+    ContactFormComponent,
     HeaderComponent,
     FooterComponent,
+    AboutComponent,
+    PoliticsComponent,
     CtaComponent
   ],
   providers: [WINDOW_PROVIDERS]

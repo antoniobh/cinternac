@@ -1,6 +1,15 @@
 {
   "COMPANY":{
-    "NAME":"Carga Internacional"
+    "US":"¿Quiénes Somos?",
+    "NAME":"Carga Internacional",
+    "HISTORY":{
+      "TITLE":"Carga Internacional",
+      "HISTORY":" Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    "PRIVACY":{
+      "TITLE":"",
+      "POLITICS":""
+    }
   },
   "lang":{
     "es":"Español",
@@ -99,6 +108,24 @@
           "TITLE":"Aguacates",
           "CONTENT":"Además de las muchas maravillas que tienen para su salud, son deliciosos. ¿Qué más necesita?"
       }
+    }
+  },
+  "GALLERY":{
+
+  },
+  "CONTACT":{
+    "TITLE":"Contáctanos",
+    "WRITEUS":"Envíanos un correo",
+    "WRITEUS-SMALL":"¿Quieres información?, ¿hacer un comentario?, hazlo acá, estamos para escucharte.",
+    "EMAIL-FORM":{
+      "NAME":"Nombre",
+      "NAME-ERROR":"El nombre es requerido",
+      "EMAIL":"Correo electrónico",
+      "EMAIL-ERROR":"Correo invalido",
+      "SUBJECT":"Asunto",
+      "SUBJECT-ERROR":"El asunto es requerido",
+      "MESSAGE":"Mensaje",
+      "MESSAGE-ERROR":"El mensaje es requerido"
     }
   }
 }

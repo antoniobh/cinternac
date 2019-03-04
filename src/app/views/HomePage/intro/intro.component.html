@@ -34,9 +34,8 @@
     <span fxFlex.lt-md="30px" fxFlex="0"></span>
     <div fxFlex="50">
       <div class="intro-product">
-        <a matRipple class="intro-product-link" href="https://themeforest.net/item/egret-angular-4-material-design-admin-template/20161805?ref=mh_rafi" target="_blank">
-          <!-- <div class="price">$24</div>
-          <span class="price-text">Buy From ThemeForest</span> -->
+        <a matRipple class="intro-product-link" [routerLink]="'/landing/empresa/historia'" >
+          <div class="price">{{'COMPANY.US' | translate}}</div>
         </a>
         <img mat-card-image src="assets/images/egret-screen.png" [style.margin]="'0 !important'">
       </div>
