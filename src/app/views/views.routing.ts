@@ -13,7 +13,6 @@ export const ViewsRoutes: Routes = [
   { path: 'productos', component: ProductsComponent },
   { path: 'galeria', component: GalleryComponent },
   { path: 'contacto', component: ContactComponent },
-  { path: 'empresa/historia', component: AboutComponent },
-  { path: 'empresa/privacidad', component: PoliticsComponent }
-  PoliticsComponent
+  { path: 'historia', component: AboutComponent },
+  { path: 'privacidad', component: PoliticsComponent }
 ];

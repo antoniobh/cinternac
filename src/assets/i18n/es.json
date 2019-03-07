@@ -32,7 +32,18 @@
     }
   },
   "FOOTER":{
-    "MOTTO":"lema",
+    "SCHEDULE":{
+      "TITLE":"Horario",
+      "DAYS":{
+        "MONDAY":"Lunes: 8:00 – 17:00",
+        "TUESDAY":"Martes: 8:00 – 17:00",
+        "WEDNESDAY":"Miércoles: 8:00 – 17:00",
+        "THURSDAY":"Jueves: 8:00 – 17:00",
+        "FRIDAY":"Viernes: 8:00 – 17:00",
+        "SATURDAY":"Sabado: Cerrado",
+        "SUNDAY":"Domingo: Cerrado"
+      }
+    },
     "COLUMN1":{
       "TITLE":"Productos",
       "ITEMS":{
@@ -66,6 +77,18 @@
     "CTASEED":{
       "TITLE":"Semillas",
       "SUBTITLE":"Crujientes y sabrosas!"
+    },
+    "CTATUBERS":{
+      "TITLE":"Tubérculos",
+      "SUBTITLE":"Bajo una tierra fertil, un producto saludable"
+    },
+    "CTASPICES":{
+      "TITLE":"Especias",
+      "SUBTITLE":"Acompaña tus recetas con ricas especias"
+    },
+    "CTABULBS":{
+      "TITLE":"Bulbos",
+      "SUBTITLE":"Explota el chef dentro de ti con con estos productos"
     },
     "FRUITS":{
       "APPLE":{
@@ -108,13 +131,72 @@
           "TITLE":"Aguacates",
           "CONTENT":"Además de las muchas maravillas que tienen para su salud, son deliciosos. ¿Qué más necesita?"
       }
+    },
+    "SEEDS":{
+      "LINSEED":{
+        "TITLE":"Linaza",
+        "CONTENT":"Despídase de las 'itis' la linaza le ayuda a evitar inflamaciones."
+      },
+      "BARLEY":{
+        "TITLE":"Cebada",
+        "CONTENT":"¿Sabía que la cebada ayuda a normalizar los niveles de azúcar en la sangre? ¡Pruébelo! "
+      },
+      "SUNFLOWER":{
+        "TITLE":"Semillas de girasol",
+        "CONTENT":"¡Las semillas de girasol están cargadas de ácido fólico! Ideales para el embarazo. "
+      },
+      "BIRDSEED":{
+        "TITLE":"Alpiste",
+        "CONTENT":"¿Sabía que el alpiste no es solo para los pajaritos? Es ideal para acelerar el metabolismo tal vez por eso mantienen la figura"
+      },
+      "YELLOWCORN":{
+        "TITLE":"Maíz amarillo ",
+        "CONTENT":"Mucha fibra y poca grasa, ¿qué más se podía pedir?"
+      },
+      "POPCORN":{
+        "TITLE":"Maíz para palomitas",
+        "CONTENT":"Esté es el bocadillo con menos calorías. ¿Lo sabía?"
+      },
+      "BEANS":{
+        "TITLE":"Frijoles",
+        "CONTENT":"Un delicioso alimento con un bajo indice glicémico. No hay excusa para no disfrutarlos."
+      },
+      "OATS":{
+        "TITLE":"Avena",
+        "CONTENT":"Un magnífico desayuno que le ayudará a dejar de picar.¡Dígale adiós al hambre entre comidas!"
+      }
+    },
+    "TUBERS":{
+      "POTATOE":{
+        "TITLE":"Papas",
+        "CONTENT":"Hay muchísimas maneras de prepararlas. Y ¿a quién no se le antojan unas papas frítas?  "
+      }
+    },
+    "SPICES":{
+      "CINAMON":{
+        "TITLE":"Canela",
+        "CONTENT":"Mejore su digestión y, por qué no, el sabor de sus platillos con esta aromática especia."
+      },
+      "JAMAICAFLOWERS":{
+        "TITLE":"Flores de Jamaica",
+        "CONTENT":"Un colorante natural con un magnífico sabor. Limpie su cuerpo de toxinas con este delicioso producto."
+      }
+    },
+    "BULBS":{
+      "AJOS":{
+        "TITLE":"Ajos",
+        "CONTENT":"Tal vez no le proteja de los vampiros pero definitivamente le protegerá la memoria. Sus componentes se hacen cargo de ello."
+      },
+      "ONIONS":{
+        "TITLE":"Cebollas",
+        "CONTENT":"Que los triglicéridos y el colesterol no sean parte de su vida, la cebolla los mantendrá alejados siempre. "
+      }
     }
   },
   "GALLERY":{
 
   },
   "CONTACT":{
-    "TITLE":"Contáctanos",
     "WRITEUS":"Envíanos un correo",
     "WRITEUS-SMALL":"¿Quieres información?, ¿hacer un comentario?, hazlo acá, estamos para escucharte.",
     "EMAIL-FORM":{

@@ -8,11 +8,11 @@ import { LangService} from './../../shared/services/lang.service';
   styleUrls: ['./gallery.component.scss']
 })
 export class GalleryComponent{
-
   constructor(
         public translate: TranslateService,
         private lang:LangService
     ) {
          translate.setDefaultLang(this.lang.getLang());
       }
+
 }

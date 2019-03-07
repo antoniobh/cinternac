@@ -1,16 +1,213 @@
 {
+  "COMPANY":{
+    "US":"About us?",
+    "NAME":"Carga Internacional",
+    "HISTORY":{
+      "TITLE":"Carga Internacional",
+      "HISTORY":" Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    "PRIVACY":{
+      "TITLE":"",
+      "POLITICS":""
+    }
+  },
   "lang":{
-    "es":"Spanish",
-    "en":"English"
+    "es":"Español",
+    "en":"Ingles"
   },
   "CORE":{
     "HEADER":{
-      "PRODUCTS":"Products",
-      "GALLERY":"Gallery"
+      "PRODUCTS":"Productos",
+      "GALLERY":"Galería",
+      "CONTACT":"Contacto"
     }
   },
   "HOME": {
-    "TITLE": "Hola Mundo",
-    "SELECT": "Change language"
+    "INTRO":{
+      "WELCOMETEXT":"Somos CargaInternacional.cr",
+      "ADVANTAGE1":"Variety: At Carga Internacional we offer you just what you are looking for.",
+      "ADVANTAGE2":"Quality: We bring our products from different parts of the world to offer you the best of it.",
+      "ADVANTAGE3":"Cercania: Remember that we are always at your disposal.",
+      "MEETMORE":"Conoce más… "
+    }
+  },
+  "FOOTER":{
+    "SCHEDULE":{
+      "TITLE":"Horario",
+      "DAYS":{
+        "MONDAY":"Lunes: 8:00 – 17:00",
+        "TUESDAY":"Martes: 8:00 – 17:00",
+        "WEDNESDAY":"Miércoles: 8:00 – 17:00",
+        "THURSDAY":"Jueves: 8:00 – 17:00",
+        "FRIDAY":"Viernes: 8:00 – 17:00",
+        "SATURDAY":"Sabado: Cerrado",
+        "SUNDAY":"Domingo: Cerrado"
+      }
+    },
+    "COLUMN1":{
+      "TITLE":"Productos",
+      "ITEMS":{
+        "FRUITS":"Frutas",
+        "SEED":"Semillas",
+        "TUBER":"Tubérculos",
+        "SPICES":"Especias",
+        "BULBS":"Bulbos"
+      }
+    },
+    "COLUMN2":{
+      "TITLE":"Empresa",
+      "ITEMS":{
+        "HISTORY":"Historia",
+        "PRIVACY":"Política de privacidad"
+      }
+    },
+    "COLUMN3":{
+      "TITLE":"Contacto",
+      "ADDRESS":"Heredia, Costa Rica",
+      "EMAIL":"info@cargainternacional.com",
+      "TEL":"####-####",
+      "FULLTEL":"+50622622222"
+    }
+  },
+  "PRODUCTS":{
+    "CTAFRUITS":{
+      "TITLE":"Frutas",
+      "SUBTITLE":"Deliciosas y frescas!"
+    },
+    "CTASEED":{
+      "TITLE":"Semillas",
+      "SUBTITLE":"Crujientes y sabrosas!"
+    },
+    "CTATUBERS":{
+      "TITLE":"Tubérculos",
+      "SUBTITLE":"Bajo una tierra fertil, un producto saludable"
+    },
+    "CTASPICES":{
+      "TITLE":"Especias",
+      "SUBTITLE":"Acompaña tus recetas con ricas especias"
+    },
+    "CTABULBS":{
+      "TITLE":"Bulbos",
+      "SUBTITLE":"Explota el chef dentro de ti con con estos productos"
+    },
+    "FRUITS":{
+      "APPLE":{
+          "TITLE":"Manzanas",
+          "CONTENT":"¡Con una manzana al día, aleja al doctor de su vida!Cuide su corazón con nuestras jugosas manzanas."
+      },
+      "GRAPES":{
+          "TITLE":"Uvas",
+          "CONTENT":"Manténgase siempre joven con nuestras uvas. ¡Están cargadas de antioxidantes!"
+      },
+      "PEAR":{
+          "TITLE":"Peras",
+          "CONTENT":"Todas las vitaminas que necesita para estar sano, estan en nuestras deliciosas peras. "
+      },
+      "TANGERINE":{
+          "TITLE":"Mandarinas",
+          "CONTENT":"¡La belleza no tiene que doler! Nuestras mandarinas le ayudan a mantener la piel brillante de una manera deliciosa."
+      },
+      "ORANGE":{
+          "TITLE":"Naranjas",
+          "CONTENT":"Manténgase joven con las deliciosas naranjas que Carga Internacional  trae para usted de todos los rincones del mundo."
+      },
+      "KIWI":{
+          "TITLE":"Kiwis",
+          "CONTENT":"Con nuestros deliciosos kiwis, hacer dieta es un placer. Esté siempre hidratado con su delicioso sabor."
+      },
+      "NECTARINE":{
+          "TITLE":"Nectarinas",
+          "CONTENT":"¿Está a dieta? ¡Hágala divertida! Las nectarinas contienen 40 calorías cada 100 gramos. ¿Puede creerlo?"
+      },
+      "PLUMS":{
+          "TITLE":"Ciruelas",
+          "CONTENT":"¿Sabía que una ciruela puede mejorar su estado de ánimo? ¡Así como el chocolate, pero cuidando la linea!"
+      },
+      "PEACH":{
+          "TITLE":"Melocotones",
+          "CONTENT":"¿Ha visto lo tersos y suaves que son los melocotones? Cómalos y vea el mismo efecto en su piel."
+      },
+      "AVOCADO":{
+          "TITLE":"Aguacates",
+          "CONTENT":"Además de las muchas maravillas que tienen para su salud, son deliciosos. ¿Qué más necesita?"
+      }
+    },
+    "SEEDS":{
+      "LINSEED":{
+        "TITLE":"Linaza",
+        "CONTENT":"Despídase de las 'itis' la linaza le ayuda a evitar inflamaciones."
+      },
+      "BARLEY":{
+        "TITLE":"Cebada",
+        "CONTENT":"¿Sabía que la cebada ayuda a normalizar los niveles de azúcar en la sangre? ¡Pruébelo! "
+      },
+      "SUNFLOWER":{
+        "TITLE":"Semillas de girasol",
+        "CONTENT":"¡Las semillas de girasol están cargadas de ácido fólico! Ideales para el embarazo. "
+      },
+      "BIRDSEED":{
+        "TITLE":"Alpiste",
+        "CONTENT":"¿Sabía que el alpiste no es solo para los pajaritos? Es ideal para acelerar el metabolismo tal vez por eso mantienen la figura"
+      },
+      "YELLOWCORN":{
+        "TITLE":"Maíz amarillo ",
+        "CONTENT":"Mucha fibra y poca grasa, ¿qué más se podía pedir?"
+      },
+      "POPCORN":{
+        "TITLE":"Maíz para palomitas",
+        "CONTENT":"Esté es el bocadillo con menos calorías. ¿Lo sabía?"
+      },
+      "BEANS":{
+        "TITLE":"Frijoles",
+        "CONTENT":"Un delicioso alimento con un bajo indice glicémico. No hay excusa para no disfrutarlos."
+      },
+      "OATS":{
+        "TITLE":"Avena",
+        "CONTENT":"Un magnífico desayuno que le ayudará a dejar de picar.¡Dígale adiós al hambre entre comidas!"
+      }
+    },
+    "TUBERS":{
+      "POTATOE":{
+        "TITLE":"Papas",
+        "CONTENT":"Hay muchísimas maneras de prepararlas. Y ¿a quién no se le antojan unas papas frítas?  "
+      }
+    },
+    "SPICES":{
+      "CINAMON":{
+        "TITLE":"Canela",
+        "CONTENT":"Mejore su digestión y, por qué no, el sabor de sus platillos con esta aromática especia."
+      },
+      "JAMAICAFLOWERS":{
+        "TITLE":"Flores de Jamaica",
+        "CONTENT":"Un colorante natural con un magnífico sabor. Limpie su cuerpo de toxinas con este delicioso producto."
+      }
+    },
+    "BULBS":{
+      "AJOS":{
+        "TITLE":"Ajos",
+        "CONTENT":"Tal vez no le proteja de los vampiros pero definitivamente le protegerá la memoria. Sus componentes se hacen cargo de ello."
+      },
+      "ONIONS":{
+        "TITLE":"Cebollas",
+        "CONTENT":"Que los triglicéridos y el colesterol no sean parte de su vida, la cebolla los mantendrá alejados siempre. "
+      }
+    }
+  },
+  "GALLERY":{
+
+  },
+  "CONTACT":{
+    "WRITEUS":"Envíanos un correo",
+    "WRITEUS-SMALL":"¿Quieres información?, ¿hacer un comentario?, hazlo acá, estamos para escucharte.",
+    "EMAIL-FORM":{
+      "NAME":"Nombre",
+      "NAME-ERROR":"El nombre es requerido",
+      "EMAIL":"Correo electrónico",
+      "EMAIL-ERROR":"Correo invalido",
+      "SUBJECT":"Asunto",
+      "SUBJECT-ERROR":"El asunto es requerido",
+      "MESSAGE":"Mensaje",
+      "MESSAGE-ERROR":"El mensaje es requerido"
+    }
   }
 }
