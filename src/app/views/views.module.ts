@@ -23,7 +23,10 @@ import { ViewsRoutes } from "./views.routing";
 import { IntroComponent } from './HomePage/intro/intro.component';
 import { HomeComponent } from './HomePage/home.component';
 import { ProductsComponent } from './ProductsPage/products.component';
+
 import { GalleryComponent } from './GalleryPage/gallery.component';
+import { GalleryGridComponent } from './GalleryPage/GalleryGrid/galleryGrid.component';
+
 import { ContactComponent } from './ContactPage/contact.component';
 import { ContactFormComponent } from './ContactPage/ContactForm/contactForm.component';
 import { AboutComponent } from './Company/AboutPage/about.component';
@@ -89,6 +92,7 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
     HomeComponent,
     ProductsComponent,
     GalleryComponent,
+    GalleryGridComponent,
     ContactComponent,
     ContactFormComponent,
     HeaderComponent,

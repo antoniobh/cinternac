@@ -12,57 +12,57 @@
     }
   },
   "lang":{
-    "es":"Español",
-    "en":"Ingles"
+    "es":"Spanish",
+    "en":"English"
   },
   "CORE":{
     "HEADER":{
-      "PRODUCTS":"Productos",
-      "GALLERY":"Galería",
-      "CONTACT":"Contacto"
+      "PRODUCTS":"Products",
+      "GALLERY":"Gallery",
+      "CONTACT":"Contact"
     }
   },
   "HOME": {
     "INTRO":{
-      "WELCOMETEXT":"Somos CargaInternacional.cr",
-      "ADVANTAGE1":"Variety: At Carga Internacional we offer you just what you are looking for.",
+      "WELCOMETEXT":"We are CargaInternacional.cr",
+      "ADVANTAGE1":"Variety: In Carga Internacional we offer you just what you are looking for.",
       "ADVANTAGE2":"Quality: We bring our products from different parts of the world to offer you the best of it.",
-      "ADVANTAGE3":"Cercania: Remember that we are always at your disposal.",
-      "MEETMORE":"Conoce más… "
+      "ADVANTAGE3":"Proximity: Remember that we are always at your disposal.",
+      "LEARNMORE":"Learn more ..."
     }
   },
   "FOOTER":{
     "SCHEDULE":{
-      "TITLE":"Horario",
+      "TITLE":"Schedule",
       "DAYS":{
-        "MONDAY":"Lunes: 8:00 – 17:00",
-        "TUESDAY":"Martes: 8:00 – 17:00",
-        "WEDNESDAY":"Miércoles: 8:00 – 17:00",
-        "THURSDAY":"Jueves: 8:00 – 17:00",
-        "FRIDAY":"Viernes: 8:00 – 17:00",
-        "SATURDAY":"Sabado: Cerrado",
-        "SUNDAY":"Domingo: Cerrado"
+        "MONDAY":"Monday: 8:00 - 17:00",
+        "TUESDAY":"Tuesday: 8:00 – 17:00",
+        "WEDNESDAY":"Wednesday: 8:00 – 17:00",
+        "THURSDAY":"Thursday: 8:00 – 17:00",
+        "FRIDAY":"Friday: 8:00 – 17:00",
+        "SATURDAY":"Saturday: Cerrado",
+        "SUNDAY":"Sunday: Cerrado"
       }
     },
     "COLUMN1":{
-      "TITLE":"Productos",
+      "TITLE":"Products",
       "ITEMS":{
-        "FRUITS":"Frutas",
-        "SEED":"Semillas",
-        "TUBER":"Tubérculos",
-        "SPICES":"Especias",
-        "BULBS":"Bulbos"
+        "FRUITS":"Fruits",
+        "SEED":"Seeds",
+        "TUBER":"Tubers",
+        "SPICES":"Spices",
+        "BULBS":"Bulbs"
       }
     },
     "COLUMN2":{
-      "TITLE":"Empresa",
+      "TITLE":"Company",
       "ITEMS":{
-        "HISTORY":"Historia",
-        "PRIVACY":"Política de privacidad"
+        "HISTORY":"History",
+        "PRIVACY":"Privacy Policy"
       }
     },
     "COLUMN3":{
-      "TITLE":"Contacto",
+      "TITLE":"Contact",
       "ADDRESS":"Heredia, Costa Rica",
       "EMAIL":"info@cargainternacional.com",
       "TEL":"####-####",
@@ -70,126 +70,127 @@
     }
   },
   "PRODUCTS":{
+    "TITLE":"Enjoy our variety of products",
     "CTAFRUITS":{
-      "TITLE":"Frutas",
-      "SUBTITLE":"Deliciosas y frescas!"
+      "TITLE":"Fruits",
+      "SUBTITLE":"Delicious and fresh!"
     },
     "CTASEED":{
-      "TITLE":"Semillas",
-      "SUBTITLE":"Crujientes y sabrosas!"
+      "TITLE":"Seeds",
+      "SUBTITLE":"Crispy and tasty!"
     },
     "CTATUBERS":{
-      "TITLE":"Tubérculos",
-      "SUBTITLE":"Bajo una tierra fertil, un producto saludable"
+      "TITLE":"Tubers",
+      "SUBTITLE":"Under a fertile soil, a healthy product"
     },
     "CTASPICES":{
-      "TITLE":"Especias",
-      "SUBTITLE":"Acompaña tus recetas con ricas especias"
+      "TITLE":"Spices",
+      "SUBTITLE":"Accompany your recipes with rich spices"
     },
     "CTABULBS":{
-      "TITLE":"Bulbos",
-      "SUBTITLE":"Explota el chef dentro de ti con con estos productos"
+      "TITLE":"Bulbs",
+      "SUBTITLE":"Exploit the chef inside you with these products"
     },
     "FRUITS":{
       "APPLE":{
-          "TITLE":"Manzanas",
-          "CONTENT":"¡Con una manzana al día, aleja al doctor de su vida!Cuide su corazón con nuestras jugosas manzanas."
+          "TITLE":"Apples",
+          "CONTENT":"With an apple a day, take the doctor away from your life! Take care of your heart with our juicy apples."
       },
       "GRAPES":{
-          "TITLE":"Uvas",
-          "CONTENT":"Manténgase siempre joven con nuestras uvas. ¡Están cargadas de antioxidantes!"
+          "TITLE":"Grapes",
+          "CONTENT":"Always stay young with our grapes, they are loaded with antioxidants!"
       },
       "PEAR":{
-          "TITLE":"Peras",
-          "CONTENT":"Todas las vitaminas que necesita para estar sano, estan en nuestras deliciosas peras. "
+          "TITLE":"Pears",
+          "CONTENT":"All the vitamins you need to be healthy are in our delicious pears. "
       },
       "TANGERINE":{
-          "TITLE":"Mandarinas",
-          "CONTENT":"¡La belleza no tiene que doler! Nuestras mandarinas le ayudan a mantener la piel brillante de una manera deliciosa."
+          "TITLE":"Tangerines",
+          "CONTENT":"Beauty does not have to hurt! Our tangerines help you keep your skin glowing in a delicious way."
       },
       "ORANGE":{
-          "TITLE":"Naranjas",
-          "CONTENT":"Manténgase joven con las deliciosas naranjas que Carga Internacional  trae para usted de todos los rincones del mundo."
+          "TITLE":"Oranges",
+          "CONTENT":"Stay young with the delicious oranges that International Cargo brings to you from all corners of the world."
       },
       "KIWI":{
           "TITLE":"Kiwis",
-          "CONTENT":"Con nuestros deliciosos kiwis, hacer dieta es un placer. Esté siempre hidratado con su delicioso sabor."
+          "CONTENT":"With our delicious kiwis, dieting is a pleasure, always be hydrated with its delicious flavor."
       },
       "NECTARINE":{
-          "TITLE":"Nectarinas",
-          "CONTENT":"¿Está a dieta? ¡Hágala divertida! Las nectarinas contienen 40 calorías cada 100 gramos. ¿Puede creerlo?"
+          "TITLE":"Nectarines",
+          "CONTENT":"Are you on a diet? Make it fun! Nectarines contain 40 calories per 100 grams. Can you believe it?"
       },
       "PLUMS":{
-          "TITLE":"Ciruelas",
-          "CONTENT":"¿Sabía que una ciruela puede mejorar su estado de ánimo? ¡Así como el chocolate, pero cuidando la linea!"
+          "TITLE":"Plums",
+          "CONTENT":"Did you know that a plum can improve your mood? As well as chocolate, but taking care of the line!"
       },
       "PEACH":{
-          "TITLE":"Melocotones",
-          "CONTENT":"¿Ha visto lo tersos y suaves que son los melocotones? Cómalos y vea el mismo efecto en su piel."
+          "TITLE":"Peaches",
+          "CONTENT":"Have you seen how smooth and soft the peaches are? Eat them and see the same effect on their skin."
       },
       "AVOCADO":{
-          "TITLE":"Aguacates",
-          "CONTENT":"Además de las muchas maravillas que tienen para su salud, son deliciosos. ¿Qué más necesita?"
+          "TITLE":"Avocados",
+          "CONTENT":"In addition to the many wonders they have for your health, they are delicious, what else do you need?"
       }
     },
     "SEEDS":{
       "LINSEED":{
-        "TITLE":"Linaza",
-        "CONTENT":"Despídase de las 'itis' la linaza le ayuda a evitar inflamaciones."
+        "TITLE":"Linseed",
+        "CONTENT":"Say goodbye to the 'itis' flaxseed helps you avoid inflammation."
       },
       "BARLEY":{
-        "TITLE":"Cebada",
-        "CONTENT":"¿Sabía que la cebada ayuda a normalizar los niveles de azúcar en la sangre? ¡Pruébelo! "
+        "TITLE":"Barley",
+        "CONTENT":"Did you know that barley helps normalize blood sugar levels?."
       },
       "SUNFLOWER":{
-        "TITLE":"Semillas de girasol",
-        "CONTENT":"¡Las semillas de girasol están cargadas de ácido fólico! Ideales para el embarazo. "
+        "TITLE":"Sunflower seeds",
+        "CONTENT":"Sunflower seeds are loaded with folic acid! Ideal for pregnancy."
       },
       "BIRDSEED":{
         "TITLE":"Alpiste",
-        "CONTENT":"¿Sabía que el alpiste no es solo para los pajaritos? Es ideal para acelerar el metabolismo tal vez por eso mantienen la figura"
+        "CONTENT":"Did you know that birdseed is not just for the birds? It's ideal to speed up the metabolism maybe that's why they keep the figure."
       },
       "YELLOWCORN":{
-        "TITLE":"Maíz amarillo ",
-        "CONTENT":"Mucha fibra y poca grasa, ¿qué más se podía pedir?"
+        "TITLE":"Yellow corn",
+        "CONTENT":"A lot of fiber and little fat, what else could you ask for?"
       },
       "POPCORN":{
-        "TITLE":"Maíz para palomitas",
-        "CONTENT":"Esté es el bocadillo con menos calorías. ¿Lo sabía?"
+        "TITLE":"Corn for popcorn",
+        "CONTENT":"This is the sandwich with fewer calories. Did you know?"
       },
       "BEANS":{
-        "TITLE":"Frijoles",
-        "CONTENT":"Un delicioso alimento con un bajo indice glicémico. No hay excusa para no disfrutarlos."
+        "TITLE":"Beans",
+        "CONTENT":"A delicious food with a low glycemic index, there is no excuse not to enjoy them."
       },
       "OATS":{
-        "TITLE":"Avena",
-        "CONTENT":"Un magnífico desayuno que le ayudará a dejar de picar.¡Dígale adiós al hambre entre comidas!"
+        "TITLE":"Oats",
+        "CONTENT":"A great breakfast that will help you stop piquing! Say goodbye to hunger between meals!"
       }
     },
     "TUBERS":{
       "POTATOE":{
-        "TITLE":"Papas",
-        "CONTENT":"Hay muchísimas maneras de prepararlas. Y ¿a quién no se le antojan unas papas frítas?  "
+        "TITLE":"Potatoes",
+        "CONTENT":"There are so many ways to prepare them, and who does not fancy fried potatoes?"
       }
     },
     "SPICES":{
       "CINAMON":{
-        "TITLE":"Canela",
-        "CONTENT":"Mejore su digestión y, por qué no, el sabor de sus platillos con esta aromática especia."
+        "TITLE":"Cinnamon",
+        "CONTENT":"Improve your digestion and, why not, the taste of your dishes with this aromatic spice."
       },
       "JAMAICAFLOWERS":{
-        "TITLE":"Flores de Jamaica",
-        "CONTENT":"Un colorante natural con un magnífico sabor. Limpie su cuerpo de toxinas con este delicioso producto."
+        "TITLE":"Flowers of Jamaica",
+        "CONTENT":"A natural coloring with a great taste, cleanse your body of toxins with this delicious product."
       }
     },
     "BULBS":{
       "AJOS":{
-        "TITLE":"Ajos",
-        "CONTENT":"Tal vez no le proteja de los vampiros pero definitivamente le protegerá la memoria. Sus componentes se hacen cargo de ello."
+        "TITLE":"Garlics",
+        "CONTENT":"Maybe it will not protect you from vampires but it will definitely protect your memory, its components take care of it."
       },
       "ONIONS":{
-        "TITLE":"Cebollas",
-        "CONTENT":"Que los triglicéridos y el colesterol no sean parte de su vida, la cebolla los mantendrá alejados siempre. "
+        "TITLE":"Onions",
+        "CONTENT":"That triglycerides and cholesterol are not part of your life, the onion will always keep them away."
       }
     }
   },
@@ -197,17 +198,17 @@
 
   },
   "CONTACT":{
-    "WRITEUS":"Envíanos un correo",
-    "WRITEUS-SMALL":"¿Quieres información?, ¿hacer un comentario?, hazlo acá, estamos para escucharte.",
+    "WRITEUS":"Send us an email",
+    "WRITEUS-SMALL":"Do you want information? Make a comment? Do it here, we are here to listen to you.",
     "EMAIL-FORM":{
-      "NAME":"Nombre",
-      "NAME-ERROR":"El nombre es requerido",
-      "EMAIL":"Correo electrónico",
-      "EMAIL-ERROR":"Correo invalido",
-      "SUBJECT":"Asunto",
-      "SUBJECT-ERROR":"El asunto es requerido",
-      "MESSAGE":"Mensaje",
-      "MESSAGE-ERROR":"El mensaje es requerido"
+      "NAME":"Name",
+      "NAME-ERROR":"The name is required",
+      "EMAIL":"Email",
+      "EMAIL-ERROR":"Mail invalid",
+      "SUBJECT":"Subject",
+      "SUBJECT-ERROR":"The subject is required",
+      "MESSAGE":"Message",
+      "MESSAGE-ERROR":"The message is required"
     }
   }
 }

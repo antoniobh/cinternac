@@ -1,0 +1,11 @@
+#images-grid{
+  list-style: none;
+  display: block;
+}
+#images-grid li{
+  display: inline;
+}
+#images-grid li img{
+  width: 20%;
+  padding: 10px;
+}
