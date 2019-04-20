@@ -35,20 +35,15 @@
     "SCHEDULE":{
       "TITLE":"Schedule",
       "DAYS":{
-        "MONDAY":"Monday: 8:00 - 17:00",
-        "TUESDAY":"Tuesday: 8:00 – 17:00",
-        "WEDNESDAY":"Wednesday: 8:00 – 17:00",
-        "THURSDAY":"Thursday: 8:00 – 17:00",
-        "FRIDAY":"Friday: 8:00 – 17:00",
-        "SATURDAY":"Saturday: Cerrado",
-        "SUNDAY":"Sunday: Cerrado"
+        "MONDAY_TO_FRIDAY":"Monday to Friday: 8:00 - 17:00",
+        "SATURDAY_AND_SUNDAY":"Saturday and Sunday: Close"
       }
     },
     "COLUMN1":{
       "TITLE":"Products",
       "ITEMS":{
         "FRUITS":"Fruits",
-        "SEED":"Seeds",
+        "SEED":"Grain",
         "TUBER":"Tubers",
         "SPICES":"Spices",
         "BULBS":"Bulbs"
@@ -76,7 +71,7 @@
       "SUBTITLE":"Delicious and fresh!"
     },
     "CTASEED":{
-      "TITLE":"Seeds",
+      "TITLE":"Grain",
       "SUBTITLE":"Crispy and tasty!"
     },
     "CTATUBERS":{
