@@ -10,11 +10,26 @@
   padding: 10px;
 }
 
-.tumblr{
-  width: 250px;
-  height: 250px;
-  background-repeat: no-repeat;
+.bg-linear-gradiant{
+  background: linear-gradient(180deg,#1e3264,#181818 40%);
+}
+
+.tumblr-container{
   display: inline-block;
+  max-height: 348.750;
+  max-width: 465;
+
+  min-height: 72.500;
+  min-width: 96.656;
+
+
+  width: 25%;
+  height: 25%;
+  overflow: hidden;
+  background: #17181d;
+}
+.tumblr{
+
 }
 
 .tumblr:hover{
