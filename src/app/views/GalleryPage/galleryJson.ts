@@ -1,5 +1,5 @@
-{
-  "images":[
+export const images = {
+  "id":[
         "IMG-20190413-WA0064.jpg",
         "IMG-20190413-WA0117.jpg",
         "IMG-20190413-WA0170.jpg",

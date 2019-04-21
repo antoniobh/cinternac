@@ -1,12 +1,19 @@
 <app-header></app-header>
 <div style="height: 100px; width: 100%"></div>
 
-<div>
+<!-- <div>
   <ul id="images-grid">
     <li><img src="../../../assets/gallery/img1.jpg" alt="Picture 1"></li>
     <li><img src="../../../assets/gallery/img1.jpg" alt="Picture 2"></li>
     <li><img src="../../../assets/gallery/img1.jpg" alt="Picture 3"></li>
   </ul>
+</div> -->
+
+<div class="container-fluid">
+
+  <div class="list">
+      <img *ngFor="let Picture of Pictures" (click)="showPicture(Picture)" class="tumblr" src="../../../assets/gallery/{{Picture}}" alt="">
+  </div>
 </div>
 
 <app-footer></app-footer>
