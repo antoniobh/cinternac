@@ -1,37 +1,36 @@
-#images-grid{
-  list-style: none;
-  display: block;
-}
-#images-grid li{
-  display: inline;
-}
-#images-grid li img{
-  width: 20%;
-  padding: 10px;
-}
-
 .bg-linear-gradiant{
-  background: linear-gradient(180deg,#1e3264,#181818 40%);
+  // background: linear-gradient(180deg,#1e3264,#181818 40%);
 }
 
 .tumblr-container{
   display: inline-block;
-  max-height: 348.750;
-  max-width: 465;
-
-  min-height: 72.500;
-  min-width: 96.656;
-
-
-  width: 25%;
-  height: 25%;
+  width: 100%;
+  margin: 0.5rem;
   overflow: hidden;
-  background: #17181d;
+  border-radius: 4px;
+}
+.gallery{
+  width: 100%;
+  margin: auto;
 }
 .tumblr{
 
 }
 
+
 .tumblr:hover{
 
+}
+
+
+@media (max-width: 375px) {
+  .tumblr-container{
+    width: 100%;
+  }
+}
+
+@media (max-width: 425px) {
+  .tumblr-container{
+    width: 50%;
+  }
 }

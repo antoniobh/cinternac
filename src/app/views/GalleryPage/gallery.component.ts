@@ -2,6 +2,9 @@ import { Component } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { LangService} from './../../shared/services/lang.service';
 import { images } from './galleryJson';
+import $ from "jquery";
+import * as jq from "jquery";
+
 
 @Component({
   selector: 'app-Gallery',
@@ -10,9 +13,9 @@ import { images } from './galleryJson';
 })
 export class GalleryComponent{
 
-  Pictures:any = images.id;
+  Pictures:any = images.Selected;
 
-  console.log(images.id)
+
 
   constructor(
         public translate: TranslateService,
