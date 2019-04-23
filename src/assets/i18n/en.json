@@ -22,6 +22,24 @@
       "CONTACT":"Contact"
     }
   },
+  "COUNTRIES":{
+    "USA":"U.S",
+    "GUA": "Guatemala",
+    "NIC": "Nicaragua",
+    "PERU":"Peru",
+    "ESP":"Spain",
+    "HOL":"Holland",
+    "CHI":"Chile",
+    "CAN":"Canada",
+    "PORT":"Portugal",
+    "ITA":"Italy",
+    "GRE":"Greece",
+    "MEX":"Mexico",
+    "FR":"France",
+    "NIG":"Nigeria",
+    "EG": "Egypt",
+    "CHIN":"China"
+  },
   "HOME": {
     "INTRO":{
       "WELCOMETEXT":"We are CargaInternacional.cr",
