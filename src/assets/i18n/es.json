@@ -22,6 +22,24 @@
       "CONTACT":"Contacto"
     }
   },
+  "COUNTRIES":{
+    "USA":"Estados Unidos",
+    "GUA": "Guatemala",
+    "NIC": "Nicaragua",
+    "PERU":"Peru",
+    "ESP":"España",
+    "HOL":"Holanda",
+    "CHI":"Chile",
+    "CAN":"Canada",
+    "PORT":"Portugal",
+    "ITA":"Italia",
+    "GRE":"Grecia",
+    "MEX":"Mexico",
+    "FR":"Francia",
+    "NIG":"Nigeria",
+    "EG": "Egipto",
+    "CHIN":"China"
+  },
   "HOME": {
     "INTRO":{
       "WELCOMETEXT":"Somos CargaInternacional.cr",
@@ -165,7 +183,7 @@
     "TUBERS":{
       "POTATOE":{
         "TITLE":"Papas",
-        "CONTENT":"Hay muchísimas maneras de prepararlas. Y ¿a quién no se le antojan unas papas frítas?  "
+        "CONTENT":"Hay muchísimas maneras de prepararlas. Y, ¿a quién no se le antojan unas papas fritas?"
       }
     },
     "SPICES":{
