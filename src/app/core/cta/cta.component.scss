@@ -7,3 +7,28 @@
   background-size: cover;
   color: white;
 }
+.bgCta{
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: 100%,0px;
+}
+
+.bgFrutas{
+  background-image: url('../../../assets/images/frutas.png')
+}
+
+.bgGranos{
+  background-image: url('../../../assets/images/granos.png')
+}
+
+.bgTuberculos{
+  background-image: url('../../../assets/images/papas.png')
+}
+
+.bgSpecias{
+  background-image: url('../../../assets/images/especias.png')
+}
+
+.bgBulbos{
+  background-image: url('../../../assets/images/bulbos.png')
+}

@@ -8,6 +8,8 @@ import { Component, OnInit, Input } from '@angular/core';
 export class CtaComponent implements OnInit {
   @Input() Title: string;
   @Input() SubTitle: string;
+  @Input() BackgroundImage: string;
+
   constructor() { }
 
   ngOnInit() {
