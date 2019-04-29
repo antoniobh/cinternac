@@ -4,7 +4,7 @@
       <h2>{{'CONTACT.WRITEUS'| translate}}</h2>
       <p>{{'CONTACT.WRITEUS-SMALL'| translate}}</p>
     </div>
-    <form [formGroup]="contactForm">
+    <!-- <form [formGroup]="contactForm">
       <div fxLayout="row" fxLayout.lt-md="column" fxLayoutWrap="wrap">
         <div fxFlex="100">
           <div class="pb-1">
@@ -37,9 +37,21 @@
         </div>
 
         <div fxFlex="100">
-          <button mat-fab color="primary" [disabled]="!contactForm.valid"><mat-icon>send</mat-icon></button>
+          <button mat-fab color="primary" [disabled]="!contactForm.valid" (click)="sendMail()"><mat-icon>send</mat-icon></button>
         </div>
       </div>
-    </form>
+    </form> -->
+
+
+
+    <!-- Formulario Temporal -->
+
+    <div class="col">
+      <div class="row">
+          <a class="link" href="mailto:{{'FOOTER.COLUMN3.EMAIL' | translate}}?subject=Información">{{'FOOTER.COLUMN3.EMAIL' | translate}}</a>
+      </div>
+    </div>
+
+
   </div>
 </section>

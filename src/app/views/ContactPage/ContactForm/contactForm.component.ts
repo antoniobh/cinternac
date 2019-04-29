@@ -6,6 +6,7 @@ import { FormGroup, FormBuilder, Validators } from '@angular/forms';
   styleUrls: ['./contactForm.component.scss']
 })
 export class ContactFormComponent implements OnInit {
+  nameForm:string;
   @Input('backgroundGray') public backgroundGray;
   contactForm: FormGroup;
   constructor(
@@ -21,4 +22,11 @@ export class ContactFormComponent implements OnInit {
     })
   }
 
+
+    // console.log(this.contactForm.controls['name'].value)
+
+
+  sendMail(){
+
+  }
 }
