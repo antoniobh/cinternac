@@ -24,6 +24,35 @@ import { IntroComponent } from './HomePage/intro/intro.component';
 import { HomeComponent } from './HomePage/home.component';
 import { ProductsComponent } from './ProductsPage/products.component';
 
+  // Frutas
+    import { ApplesModalComponent } from './ProductsPage/Origins/ApplesModal/applesModal.component';
+ //    import { GrapesModalComponent } from './ProductsPage/Origins/GrapesModal/grapesModal.component';
+ //    import { PearsModalComponent } from './ProductsPage/Origins/PearsModal/pearsModal.component';
+ //    import { TangerinesModalComponent } from './ProductsPage/Origins/TangerinesModal/tangerinesModal.component';
+ //    import { OrangesModalComponent } from './ProductsPage/Origins/OrangesModal/orangesModal.component';
+ //    import { KiwisModalComponent } from './ProductsPage/Origins/kiwisModal/kiwisModal.component';
+ //    import { PeachesModalComponent } from './ProductsPage/Origins/PeachesModal/peachesModal.component';
+ //    import { NectarinesModalComponent } from './ProductsPage/Origins/NectarinesModal/nectarinesModal.component';
+ //    import { PlumsModalComponent } from './ProductsPage/Origins/PlumsModal/plumsModal.component';
+ //    import { AvocatoesModalComponent } from './ProductsPage/Origins/AvocatoesModal/avocatoesModal.component';
+ //  // Granos
+ //    import { LinseedModalComponent } from './ProductsPage/Origins/LinseedModal/linssedModal.component';
+ //    import { BarleyModalComponent } from './ProductsPage/Origins/BarleyModal/barleyModal.component';
+ //    import { SunFlowerSeedsModalComponent } from './ProductsPage/Origins/sunFlowerSeedsModal/sunFlowerSeedsModal.component';
+    import { AlpisteModalComponent } from './ProductsPage/Origins/AlpisteModal/alpisteModal.component';
+ //    import { YellowCornModalComponent } from './ProductsPage/Origins/YellowCornModal/yellowCornModal.component';
+ //    import { CornForPopCornModalComponent } from './ProductsPage/Origins/CornForPopCornModal/cornForPopCornModal.component';
+ //    import { BeansModalComponent } from './ProductsPage/Origins/BeansModal/beansModal.component';
+ //    import { OansModalComponent } from './ProductsPage/Origins/OansModal/OansModal.component';
+ //  // TUBERCULOS
+ //    import { PotatoesModalComponent } from './ProductsPage/Origins/PotatoesModal/potatoesModal.component';
+ //  // Especias
+ //    import { CinnamonModalComponent } from './ProductsPage/Origins/CinnamonModal/cinnamonModal.component';
+ //    import { JamaicaFlowersModalComponent } from './ProductsPage/Origins/JamaicaFlowers/jamaicaFlowersModal.component';
+ // // bulbos
+ //    import { GarlicsModalComponent } from './ProductsPage/Origins/GarlicsModal/garlicsModal.component';
+ //    import { OnionsModalComponent } from './ProductsPage/Origins/OnionsModal/onionsModal.component';
+
 import { GalleryComponent } from './GalleryPage/gallery.component';
 import { GalleryGridComponent } from './GalleryPage/GalleryGrid/galleryGrid.component';
 
@@ -91,6 +120,34 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
     IntroComponent,
     HomeComponent,
     ProductsComponent,
+    // Frutas
+        ApplesModalComponent,
+  //       GrapesModalComponent,
+  //       PearsModalComponent,
+  //       TangerinesModalComponent,
+  //       OrangesModalComponent,
+  //       KiwisModalComponent,
+  //       PeachesModalComponent,
+  //       NectarinesModalComponent,
+  //       PlumsModalComponent,
+  //       AvocatoesModalComponent,
+  //   // Granos
+  //       LinseedModalComponent,
+  //       BarleyModalComponent,
+  //       SunFlowerSeedsModalComponent,
+        AlpisteModalComponent,
+  //       YellowCornModalComponent,
+  //       CornForPopCornModalComponent,
+  //       BeansModalComponent,
+  //       OansModalComponent,
+  // // Tubeculos
+  //       PotatoesModalComponent,
+  // // Especias
+  //       CinnamonModalComponent,
+  //       JamaicaFlowersModalComponent,
+  // // Bulbos
+  //       GarlicsModalComponent,
+  //       OnionsModalComponent,
     GalleryComponent,
     GalleryGridComponent,
     ContactComponent,

@@ -1,6 +1,41 @@
 <app-header></app-header>
 <div style="height: 130px; width: 100%"></div>
 
+
+  <!-- Componentes Modal -->
+  <div>
+      <!-- Frutas -->
+    <app-applesModal></app-applesModal>
+
+    <!-- <app-grapesModal></app-grapesModal> -->
+    <!-- <app-pearsModal></app-pearsModal> -->
+    <!-- <app-TangerinesModal></app-TangerinesModal> -->
+    <!-- <app-orangesModal></app-orangesModal> -->
+    <!-- <app-kiwisModal></app-kiwisModal> -->
+    <!-- <app-peachesModal></app-peachesModal> -->
+    <!-- <app-nectarinesModal></app-nectarinesModal> -->
+    <!-- <app-plumsModal></app-plumsModal> -->
+    <!-- <app-avocatoesModal></app-avocatoesModal> -->
+    <!-- Granos -->
+    <!-- <app-linssedModal></app-linssedModal> -->
+    <!-- <app-barleyModal></app-barleyModal> -->
+    <!-- <app-sunFlowerSeedsModal></app-sunFlowerSeedsModal> -->
+    <app-alpisteModal></app-alpisteModal>
+    <!-- <app-yellowCornModal></app-yellowCornModal> -->
+    <!-- <app-cornForPopCornModal></app-cornForPopCornModal> -->
+    <!-- <app-beansModal></app-beansModal> -->
+    <!-- <app-oatsModal></app-oatsModal> -->
+    <!-- TUBERCULOS -->
+    <!-- <app-potatoesModal></app-potatoesModal> -->
+    <!-- Especias -->
+    <!-- <app-cinnamonModal></app-cinnamonModal> -->
+    <!-- <app-jamaicaFlowersModal></app-jamaicaFlowersModal> -->
+    <!-- bulbos -->
+    <!-- <app-garlicsModal></app-garlicsModal> -->
+    <!-- <app-onionsModal></app-onionsModal> -->
+  </div>
+
+
   <div class="container-fluid">
     <h1 class="products-title">{{'PRODUCTS.TITLE' | translate}}</h1>
   </div>
@@ -16,34 +51,10 @@
   <div class="container">
     <div class="row products-wrapp">
         <div class="col-md-6">
-          <h3>{{'PRODUCTS.FRUITS.APPLE.TITLE' | translate}}</h3>
+          <h3 data-toggle="modal" data-target="#applesModal">{{'PRODUCTS.FRUITS.APPLE.TITLE' | translate}}</h3>
           <p class="products-content">
               {{'PRODUCTS.FRUITS.APPLE.CONTENT' | translate}}
           </p>
-          <div>
-            <img class="market" src="../../../assets/images/marcador.svg" alt="">
-            <div class="corigin">
-              {{'COUNTRIES.USA' | translate}}
-            </div>
-            <div class="corigin">
-              {{'COUNTRIES.CAN' | translate}}
-            </div>
-            <div class="corigin">
-              {{'COUNTRIES.CHI' | translate}}
-            </div>
-            <div class="corigin">
-              {{'COUNTRIES.PORT' | translate}}
-            </div>
-            <div class="corigin">
-              {{'COUNTRIES.ESP' | translate}}
-            </div>
-            <div class="corigin">
-              {{'COUNTRIES.FR' | translate}}
-            </div>
-            <div class="corigin">
-              {{'COUNTRIES.ITA' | translate}}
-            </div>
-          </div>
         </div>
         <div class="col-md-6">
           <h3>{{'PRODUCTS.FRUITS.GRAPES.TITLE' | translate}}</h3>
@@ -305,19 +316,10 @@
           </div>
         </div>
         <div class="col-md-6">
-          <h3>{{'PRODUCTS.SEEDS.BIRDSEED.TITLE' | translate}}</h3>
+          <h3 data-toggle="modal" data-target="#alpisteModal">{{'PRODUCTS.SEEDS.BIRDSEED.TITLE' | translate}}</h3>
           <p class="products-content">
               {{'PRODUCTS.SEEDS.BIRDSEED.CONTENT' | translate}}
           </p>
-          <div>
-            <img class="market" src="../../../assets/images/marcador.svg" alt="">
-            <div class="corigin">
-              {{'COUNTRIES.USA' | translate}}
-            </div>
-            <div class="corigin">
-              {{'COUNTRIES.CAN' | translate}}
-            </div>
-          </div>
         </div>
     </div>
 

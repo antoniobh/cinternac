@@ -1,16 +1,16 @@
 /*------- Home Common -------*/
 body.landing {
-  .h1, 
-  .h2, 
-  .h3, 
-  .h4, 
-  .h5, 
-  .h6, 
-  h1, 
-  h2, 
-  h3, 
-  h4, 
-  h5, 
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .h6,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
   h6 {
       margin-bottom: .5rem;
       font-weight: 400;
@@ -21,23 +21,23 @@ body.landing {
   h1 {
       font-size: 2rem;
   }
-  .h2, 
+  .h2,
   h2 {
       font-size: 1.75rem;
   }
-  .h3, 
+  .h3,
   h3 {
       font-size: 1.5rem;
   }
-  .h4, 
+  .h4,
   h4 {
       font-size: 1.25rem;
   }
-  .h5, 
+  .h5,
   h5 {
       font-size: 1rem;
   }
-  .h6, 
+  .h6,
   h6 {
       font-size: .875rem;
   }
@@ -138,4 +138,66 @@ body.landing {
 }
 .ngucarousel .carousel-right {
   right: -20px;
+}
+
+
+
+
+
+          // Origenes
+
+
+
+.modalHeader{
+  background: #505159;
+  border-bottom: none !important;
+}
+
+.transparent{
+  background: transparent !important;
+}
+
+.modalHeader h3{
+  color: white;
+  text-align: center;
+}
+
+.origins{
+  padding: 4px;
+}
+
+.img-aside{
+  border-radius: 2px;
+  margin-left: auto;
+   margin-right: auto;
+   display: block;
+}
+
+.products-content{
+  margin-left: 20px; color:#09090999;
+}
+
+.products-wrapp{
+  margin:40px 0px 40px 0px;
+}
+
+.products-title{
+  text-align: center;
+  text-shadow: 3px 3px 3px #c4c4c4;
+  padding: 40px;
+}
+
+.market{
+  display: block;
+  float: left;
+}
+.corigin{
+  background: #17181D;
+  display: block;
+  float: left;
+  padding: 3px;
+  margin: 2px;
+  border-radius: 4px;
+  color: white;
+  font-weight: lighter;
 }
