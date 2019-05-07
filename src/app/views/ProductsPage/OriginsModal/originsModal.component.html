@@ -1,0 +1,51 @@
+<!-- Modal -->
+<div class="modal fade" id="{{Identificator}}" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content transparent">
+      <div class="modal-header modalHeader">
+          <h3>{{Title}}</h3>
+      </div>
+      <div class="modal-body bg-white br2">
+        <div class="row">
+          <div class="col-sm-6">
+            <img class="img-aside" src="../../../../assets/images/productsTumblr/apples.jpg" alt="">
+          </div>
+          <div class="col-sm-6">
+            <div>
+              <div class="origins">
+                <img class="market" src="../../../../assets/images/marcador.svg" alt="">
+                <h3>{{'PRODUCTS.ORIGINS' | translate}}</h3>
+              </div>
+
+
+              <div *ngFor="let country of Countries">
+                <div [ngSwitch]="country" class="corigin">
+                  <span *ngSwitchCase="'USA'">{{'COUNTRIES.USA' | translate}}</span>
+                  <span *ngSwitchCase="'GUA'">{{'COUNTRIES.GUA' | translate}}</span>
+                  <span *ngSwitchCase="'NIC'">{{'COUNTRIES.NIC' | translate}}</span>
+                  <span *ngSwitchCase="'PERU'">{{'COUNTRIES.PERU' | translate}}</span>
+                  <span *ngSwitchCase="'ESP'">{{'COUNTRIES.ESP' | translate}}</span>
+                  <span *ngSwitchCase="'HOL'">{{'COUNTRIES.HOL' | translate}}</span>
+                  <span *ngSwitchCase="'CHI'">{{'COUNTRIES.CHI' | translate}}</span>
+                  <span *ngSwitchCase="'CAN'">{{'COUNTRIES.CAN' | translate}}</span>
+                  <span *ngSwitchCase="'PORT'">{{'COUNTRIES.PORT' | translate}}</span>
+                  <span *ngSwitchCase="'ITA'">{{'COUNTRIES.ITA' | translate}}</span>
+                  <span *ngSwitchCase="'GRE'">{{'COUNTRIES.GRE' | translate}}</span>
+                  <span *ngSwitchCase="'MEX'">{{'COUNTRIES.MEX' | translate}}</span>
+                  <span *ngSwitchCase="'FR'">{{'COUNTRIES.FR' | translate}}</span>
+                  <span *ngSwitchCase="'NIG'">{{'COUNTRIES.NIG' | translate}}</span>
+                  <span *ngSwitchCase="'EG'">{{'COUNTRIES.EG' | translate}}</span>
+                  <span *ngSwitchCase="'CHIN'">{{'COUNTRIES.CHIN' | translate}}</span>
+                  <span *ngSwitchCase="'ARG'">{{'COUNTRIES.ARG' | translate}}</span>
+                  <span *ngSwitchCase="'SIRLK'">{{'COUNTRIES.SIRLK' | translate}}</span>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

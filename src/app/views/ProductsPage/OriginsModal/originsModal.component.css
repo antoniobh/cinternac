@@ -1,0 +1,55 @@
+/* Reglas para el componente apples.component */
+
+.modalHeader{
+background: #505159;
+border-bottom: none !important;
+}
+
+.transparent{
+background: transparent !important;
+}
+
+.modalHeader h3{
+color: white;
+text-align: center;
+}
+
+.origins{
+padding: 4px;
+}
+
+.img-aside{
+border-radius: 2px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
+.products-content{
+margin-left: 20px; color:#09090999;
+}
+
+.products-wrapp{
+margin:40px 0px 40px 0px;
+}
+
+.products-title{
+text-align: center;
+text-shadow: 3px 3px 3px #c4c4c4;
+padding: 40px;
+}
+
+.market{
+display: block;
+float: left;
+}
+.corigin{
+background: #17181D;
+display: block;
+float: left;
+padding: 3px;
+margin: 2px;
+border-radius: 4px;
+color: white;
+font-weight: lighter;
+}

@@ -5,34 +5,264 @@
   <!-- Componentes Modal -->
   <div>
       <!-- Frutas -->
-    <app-applesModal></app-applesModal>
+    <app-originsModal
+      Identificator="applesModal"
+      Title="{{'PRODUCTS.FRUITS.APPLE.TITLE' | translate}}"
+      [Countries]= "[
+              'USA',
+              'CAN',
+              'CHI',
+              'PORT',
+              'ESP',
+              'FR',
+              'ITA'
+          ]"
+      >
+    </app-originsModal>
 
-    <!-- <app-grapesModal></app-grapesModal> -->
-    <!-- <app-pearsModal></app-pearsModal> -->
-    <!-- <app-TangerinesModal></app-TangerinesModal> -->
-    <!-- <app-orangesModal></app-orangesModal> -->
-    <!-- <app-kiwisModal></app-kiwisModal> -->
-    <!-- <app-peachesModal></app-peachesModal> -->
-    <!-- <app-nectarinesModal></app-nectarinesModal> -->
-    <!-- <app-plumsModal></app-plumsModal> -->
-    <!-- <app-avocatoesModal></app-avocatoesModal> -->
+    <app-originsModal
+      Identificator="grapesModal"
+      Title="{{'PRODUCTS.FRUITS.GRAPES.TITLE' | translate}}"
+      [Countries]= "[
+              'CHI',
+              'PERU',
+              'MEX',
+              'PORT',
+              'USA',
+              'ESP',
+              'ITA'
+          ]"
+      >
+    </app-originsModal>
+
+    <app-originsModal
+      Identificator="pearsModal"
+      Title="{{'PRODUCTS.FRUITS.PEAR.TITLE' | translate}}"
+      [Countries]= "[
+              'USA',
+              'CHI',
+              'ARG',
+              'PORT'
+          ]"
+      >
+    </app-originsModal>
+
+    <app-originsModal
+      Identificator="tangerineModal"
+      Title="{{'PRODUCTS.FRUITS.TANGERINE.TITLE' | translate}}"
+      [Countries]= "[
+              'PERU',
+              'ESP'
+          ]"
+      >
+    </app-originsModal>
+
+    <app-originsModal
+      Identificator="orangeModal"
+      Title="{{'PRODUCTS.FRUITS.ORANGE.TITLE' | translate}}"
+      [Countries]= "[
+              'ESP',
+              'PORT',
+              'CHI',
+              'PERU'
+          ]"
+      >
+    </app-originsModal>
+
+    <app-originsModal
+      Identificator="kiwiModal"
+      Title="{{'PRODUCTS.FRUITS.KIWI.TITLE' | translate}}"
+      [Countries]= "[
+              'ITA',
+              'GRE',
+              'USA',
+              'CHI',
+              'PORT'
+          ]"
+      >
+    </app-originsModal>
+
+    <app-originsModal
+      Identificator="peachModal"
+      Title="{{'PRODUCTS.FRUITS.PEACH.TITLE' | translate}}"
+      [Countries]= "[
+              'USA',
+              'CHI',
+              'ESP'
+          ]"
+      >
+    </app-originsModal>
+
+    <app-originsModal
+      Identificator="nectarineModal"
+      Title="{{'PRODUCTS.FRUITS.NECTARINE.TITLE' | translate}}"
+      [Countries]= "[
+              'USA',
+              'CHI',
+              'ESP'
+          ]"
+      >
+    </app-originsModal>
+
+    <app-originsModal
+      Identificator="plumsModal"
+      Title="{{'PRODUCTS.FRUITS.PLUMS.TITLE' | translate}}"
+      [Countries]= "[
+              'USA',
+              'CHI',
+              'ESP'
+          ]"
+      >
+    </app-originsModal>
+
+    <app-originsModal
+      Identificator="avocadoModal"
+      Title="{{'PRODUCTS.FRUITS.AVOCADO.TITLE' | translate}}"
+      [Countries]= "[
+              'USA',
+              'CHI',
+              'ESP'
+          ]"
+      >
+    </app-originsModal>
     <!-- Granos -->
-    <!-- <app-linssedModal></app-linssedModal> -->
-    <!-- <app-barleyModal></app-barleyModal> -->
-    <!-- <app-sunFlowerSeedsModal></app-sunFlowerSeedsModal> -->
-    <app-alpisteModal></app-alpisteModal>
-    <!-- <app-yellowCornModal></app-yellowCornModal> -->
-    <!-- <app-cornForPopCornModal></app-cornForPopCornModal> -->
-    <!-- <app-beansModal></app-beansModal> -->
-    <!-- <app-oatsModal></app-oatsModal> -->
+
+    <app-originsModal
+      Identificator="linseedModal"
+      Title="{{'PRODUCTS.SEEDS.LINSEED.TITLE' | translate}}"
+      [Countries]= "[
+              'USA',
+              'CAN'
+          ]"
+      >
+    </app-originsModal>
+
+    <app-originsModal
+      Identificator="barleyModal"
+      Title="{{'PRODUCTS.SEEDS.BARLEY.TITLE' | translate}}"
+      [Countries]= "[
+              'USA',
+              'CAN'
+          ]"
+      >
+    </app-originsModal>
+
+    <app-originsModal
+      Identificator="sunFlowerModal"
+      Title="{{'PRODUCTS.SEEDS.SUNFLOWER.TITLE' | translate}}"
+      [Countries]= "[
+              'USA',
+              'CAN'
+          ]"
+      >
+    </app-originsModal>
+
+    <app-originsModal
+      Identificator="birdSeedModal"
+      Title="{{'PRODUCTS.SEEDS.BIRDSEED.TITLE' | translate}}"
+      [Countries]= "[
+              'USA',
+              'CAN'
+          ]"
+      >
+    </app-originsModal>
+
+    <app-originsModal
+      Identificator="yellowCornModal"
+      Title="{{'PRODUCTS.SEEDS.YELLOWCORN.TITLE' | translate}}"
+      [Countries]= "[
+              'USA',
+              'CAN'
+          ]"
+      >
+    </app-originsModal>
+
+    <app-originsModal
+      Identificator="popCornModal"
+      Title="{{'PRODUCTS.SEEDS.POPCORN.TITLE' | translate}}"
+      [Countries]= "[
+              'USA',
+              'CAN'
+          ]"
+      >
+    </app-originsModal>
+
+    <app-originsModal
+      Identificator="beansModal"
+      Title="{{'PRODUCTS.SEEDS.BEANS.TITLE' | translate}}"
+      [Countries]= "[
+              'USA',
+              'CAN'
+          ]"
+      >
+    </app-originsModal>
+
+    <app-originsModal
+      Identificator="oatsModal"
+      Title="{{'PRODUCTS.SEEDS.OATS.TITLE' | translate}}"
+      [Countries]= "[
+              'USA',
+              'CAN'
+          ]"
+      >
+    </app-originsModal>
     <!-- TUBERCULOS -->
-    <!-- <app-potatoesModal></app-potatoesModal> -->
+
+    <app-originsModal
+      Identificator="potatoeModal"
+      Title="{{'PRODUCTS.TUBERS.POTATOE.TITLE' | translate}}"
+      [Countries]= "[
+              'USA',
+              'CAN',
+              'HOL'
+          ]"
+      >
+    </app-originsModal>
     <!-- Especias -->
-    <!-- <app-cinnamonModal></app-cinnamonModal> -->
-    <!-- <app-jamaicaFlowersModal></app-jamaicaFlowersModal> -->
+
+    <app-originsModal
+      Identificator="cinnamonModal"
+      Title="{{'PRODUCTS.SPICES.CINAMON.TITLE' | translate}}"
+      [Countries]= "[
+              'SIRLK'
+          ]"
+      >
+    </app-originsModal>
+
+    <app-originsModal
+      Identificator="jamaicaFlowersModal"
+      Title="{{'PRODUCTS.SPICES.JAMAICAFLOWERS.TITLE' | translate}}"
+      [Countries]= "[
+              'NIG',
+              'EG'
+          ]"
+      >
+    </app-originsModal>
     <!-- bulbos -->
-    <!-- <app-garlicsModal></app-garlicsModal> -->
-    <!-- <app-onionsModal></app-onionsModal> -->
+
+    <app-originsModal
+      Identificator="ajosModal"
+      Title="{{'PRODUCTS.BULBS.AJOS.TITLE' | translate}}"
+      [Countries]= "[
+              'CHIN'
+          ]"
+      >
+    </app-originsModal>
+
+    <app-originsModal
+      Identificator="onionsModal"
+      Title="{{'PRODUCTS.BULBS.ONIONS.TITLE' | translate}}"
+      [Countries]= "[
+              'USA',
+              'GUA',
+              'NIC',
+              'PERU',
+              'ESP',
+              'HOL',
+              'CHI'
+          ]"
+      >
+    </app-originsModal>
   </div>
 
 
@@ -51,207 +281,78 @@
   <div class="container">
     <div class="row products-wrapp">
         <div class="col-md-6">
-          <h3 data-toggle="modal" data-target="#applesModal">{{'PRODUCTS.FRUITS.APPLE.TITLE' | translate}}</h3>
+          <h3 data-toggle="modal" class="viewModal" data-target="#applesModal">{{'PRODUCTS.FRUITS.APPLE.TITLE' | translate}}</h3>
           <p class="products-content">
               {{'PRODUCTS.FRUITS.APPLE.CONTENT' | translate}}
           </p>
         </div>
         <div class="col-md-6">
-          <h3>{{'PRODUCTS.FRUITS.GRAPES.TITLE' | translate}}</h3>
+          <h3 data-toggle="modal" class="viewModal" data-target="#grapesModal">{{'PRODUCTS.FRUITS.GRAPES.TITLE' | translate}}</h3>
           <p class="products-content">
               {{'PRODUCTS.FRUITS.GRAPES.CONTENT' | translate}}
           </p>
-          <div>
-            <img class="market" src="../../../assets/images/marcador.svg" alt="">
-            <div class="corigin">
-              {{'COUNTRIES.CHI' | translate}}
-            </div>
-            <div class="corigin">
-              {{'COUNTRIES.PERU' | translate}}
-            </div>
-            <div class="corigin">
-              {{'COUNTRIES.MEX' | translate}}
-            </div>
-            <div class="corigin">
-              {{'COUNTRIES.PORT' | translate}}
-            </div>
-            <div class="corigin">
-              {{'COUNTRIES.USA' | translate}}
-            </div>
-            <div class="corigin">
-              {{'COUNTRIES.ESP' | translate}}
-            </div>
-            <div class="corigin">
-              {{'COUNTRIES.ITA' | translate}}
-            </div>
-          </div>
         </div>
     </div>
 
 
     <div class="row products-wrapp">
         <div class="col-md-6">
-          <h3>{{'PRODUCTS.FRUITS.PEAR.TITLE' | translate}}</h3>
+          <h3 data-toggle="modal" class="viewModal" data-target="#pearsModal">{{'PRODUCTS.FRUITS.PEAR.TITLE' | translate}}</h3>
           <p class="products-content">
               {{'PRODUCTS.FRUITS.PEAR.CONTENT' | translate}}
           </p>
-          <div>
-            <img class="market" src="../../../assets/images/marcador.svg" alt="">
-            <div class="corigin">
-              {{'COUNTRIES.USA' | translate}}
-            </div>
-            <div class="corigin">
-              {{'COUNTRIES.CHI' | translate}}
-            </div>
-            <div class="corigin">
-              {{'COUNTRIES.ARG' | translate}}
-            </div>
-            <div class="corigin">
-              {{'COUNTRIES.PORT' | translate}}
-            </div>
-          </div>
         </div>
         <div class="col-md-6">
-          <h3>{{'PRODUCTS.FRUITS.TANGERINE.TITLE' | translate}}</h3>
+          <h3 data-toggle="modal" class="viewModal" data-target="#tangerineModal">{{'PRODUCTS.FRUITS.TANGERINE.TITLE' | translate}}</h3>
           <p class="products-content">
               {{'PRODUCTS.FRUITS.TANGERINE.CONTENT' | translate}}
           </p>
-          <div>
-            <img class="market" src="../../../assets/images/marcador.svg" alt="">
-            <div class="corigin">
-              {{'COUNTRIES.PERU' | translate}}
-            </div>
-            <div class="corigin">
-              {{'COUNTRIES.ESP' | translate}}
-            </div>
-          </div>
         </div>
     </div>
 
 
     <div class="row products-wrapp">
         <div class="col-md-6">
-          <h3>{{'PRODUCTS.FRUITS.ORANGE.TITLE' | translate}}</h3>
+          <h3 data-toggle="modal" class="viewModal" data-target="#orangeModal">{{'PRODUCTS.FRUITS.ORANGE.TITLE' | translate}}</h3>
           <p class="products-content">
               {{'PRODUCTS.FRUITS.ORANGE.CONTENT' | translate}}
           </p>
-          <div>
-            <img class="market" src="../../../assets/images/marcador.svg" alt="">
-            <div class="corigin">
-              {{'COUNTRIES.ESP' | translate}}
-            </div>
-            <div class="corigin">
-              {{'COUNTRIES.PORT' | translate}}
-            </div>
-            <div class="corigin">
-              {{'COUNTRIES.CHI' | translate}}
-            </div>
-            <div class="corigin">
-              {{'COUNTRIES.PERU' | translate}}
-            </div>
-          </div>
         </div>
         <div class="col-md-6">
-          <h3>{{'PRODUCTS.FRUITS.KIWI.TITLE' | translate}}</h3>
+          <h3 data-toggle="modal" class="viewModal" data-target="#kiwiModal">{{'PRODUCTS.FRUITS.KIWI.TITLE' | translate}}</h3>
           <p class="products-content">
               {{'PRODUCTS.FRUITS.KIWI.CONTENT' | translate}}
           </p>
-          <div>
-            <img class="market" src="../../../assets/images/marcador.svg" alt="">
-            <div class="corigin">
-              {{'COUNTRIES.ITA' | translate}}
-            </div>
-            <div class="corigin">
-              {{'COUNTRIES.GRE' | translate}}
-            </div>
-            <div class="corigin">
-              {{'COUNTRIES.USA' | translate}}
-            </div>
-            <div class="corigin">
-              {{'COUNTRIES.CHI' | translate}}
-            </div>
-            <div class="corigin">
-              {{'COUNTRIES.PORT' | translate}}
-            </div>
-          </div>
         </div>
     </div>
 
     <div class="row products-wrapp">
         <div class="col-md-6">
-          <h3>{{'PRODUCTS.FRUITS.PEACH.TITLE' | translate}}</h3>
+          <h3 data-toggle="modal" class="viewModal" data-target="#peachModal">{{'PRODUCTS.FRUITS.PEACH.TITLE' | translate}}</h3>
           <p class="products-content">
               {{'PRODUCTS.FRUITS.PEACH.CONTENT' | translate}}
           </p>
-          <div>
-            <img class="market" src="../../../assets/images/marcador.svg" alt="">
-            <div class="corigin">
-              {{'COUNTRIES.USA' | translate}}
-            </div>
-            <div class="corigin">
-              {{'COUNTRIES.CHI' | translate}}
-            </div>
-            <div class="corigin">
-              {{'COUNTRIES.ESP' | translate}}
-            </div>
-          </div>
         </div>
         <div class="col-md-6">
-          <h3>{{'PRODUCTS.FRUITS.NECTARINE.TITLE' | translate}}</h3>
+          <h3 data-toggle="modal" class="viewModal" data-target="#nectarineModal">{{'PRODUCTS.FRUITS.NECTARINE.TITLE' | translate}}</h3>
           <p class="products-content">
               {{'PRODUCTS.FRUITS.NECTARINE.CONTENT' | translate}}
           </p>
-          <div>
-            <img class="market" src="../../../assets/images/marcador.svg" alt="">
-            <div class="corigin">
-              {{'COUNTRIES.USA' | translate}}
-            </div>
-            <div class="corigin">
-              {{'COUNTRIES.CHI' | translate}}
-            </div>
-            <div class="corigin">
-              {{'COUNTRIES.ESP' | translate}}
-            </div>
-          </div>
         </div>
     </div>
 
     <div class="row products-wrapp">
         <div class="col-md-6">
-          <h3>{{'PRODUCTS.FRUITS.PLUMS.TITLE' | translate}}</h3>
+          <h3 data-toggle="modal" class="viewModal" data-target="#plumsModal">{{'PRODUCTS.FRUITS.PLUMS.TITLE' | translate}}</h3>
           <p class="products-content">
               {{'PRODUCTS.FRUITS.PLUMS.CONTENT' | translate}}
           </p>
-          <div>
-            <img class="market" src="../../../assets/images/marcador.svg" alt="">
-            <div class="corigin">
-              {{'COUNTRIES.USA' | translate}}
-            </div>
-            <div class="corigin">
-              {{'COUNTRIES.CHI' | translate}}
-            </div>
-            <div class="corigin">
-              {{'COUNTRIES.ESP' | translate}}
-            </div>
-          </div>
         </div>
         <div class="col-md-6">
-          <h3>{{'PRODUCTS.FRUITS.AVOCADO.TITLE' | translate}}</h3>
+          <h3 data-toggle="modal" class="viewModal" data-target="#avocadoModal">{{'PRODUCTS.FRUITS.AVOCADO.TITLE' | translate}}</h3>
           <p class="products-content">
               {{'PRODUCTS.FRUITS.AVOCADO.CONTENT' | translate}}
           </p>
-          <div>
-            <img class="market" src="../../../assets/images/marcador.svg" alt="">
-            <div class="corigin">
-              {{'COUNTRIES.USA' | translate}}
-            </div>
-            <div class="corigin">
-              {{'COUNTRIES.CHI' | translate}}
-            </div>
-            <div class="corigin">
-              {{'COUNTRIES.ESP' | translate}}
-            </div>
-          </div>
         </div>
     </div>
   </div>
@@ -267,56 +368,29 @@
 
     <div class="row products-wrapp">
         <div class="col-md-6">
-          <h3>{{'PRODUCTS.SEEDS.LINSEED.TITLE' | translate}}</h3>
+          <h3 data-toggle="modal" class="viewModal" data-target="#linseedModal">{{'PRODUCTS.SEEDS.LINSEED.TITLE' | translate}}</h3>
           <p class="products-content">
               {{'PRODUCTS.SEEDS.LINSEED.CONTENT' | translate}}
           </p>
-          <div>
-            <img class="market" src="../../../assets/images/marcador.svg" alt="">
-            <div class="corigin">
-              {{'COUNTRIES.USA' | translate}}
-            </div>
-            <div class="corigin">
-              {{'COUNTRIES.CAN' | translate}}
-            </div>
-          </div>
         </div>
         <div class="col-md-6">
-          <h3>{{'PRODUCTS.SEEDS.BARLEY.TITLE' | translate}}</h3>
+          <h3 data-toggle="modal" class="viewModal" data-target="#barleyModal">{{'PRODUCTS.SEEDS.BARLEY.TITLE' | translate}}</h3>
           <p class="products-content">
               {{'PRODUCTS.SEEDS.BARLEY.CONTENT' | translate}}
           </p>
-          <div>
-            <img class="market" src="../../../assets/images/marcador.svg" alt="">
-            <div class="corigin">
-              {{'COUNTRIES.USA' | translate}}
-            </div>
-            <div class="corigin">
-              {{'COUNTRIES.CAN' | translate}}
-            </div>
-          </div>
         </div>
     </div>
 
 
     <div class="row products-wrapp">
         <div class="col-md-6">
-          <h3>{{'PRODUCTS.SEEDS.SUNFLOWER.TITLE' | translate}}</h3>
+          <h3 data-toggle="modal" class="viewModal" data-target="#sunFlowerModal">{{'PRODUCTS.SEEDS.SUNFLOWER.TITLE' | translate}}</h3>
           <p class="products-content">
               {{'PRODUCTS.SEEDS.SUNFLOWER.CONTENT' | translate}}
           </p>
-          <div>
-            <img class="market" src="../../../assets/images/marcador.svg" alt="">
-            <div class="corigin">
-              {{'COUNTRIES.USA' | translate}}
-            </div>
-            <div class="corigin">
-              {{'COUNTRIES.CAN' | translate}}
-            </div>
-          </div>
         </div>
         <div class="col-md-6">
-          <h3 data-toggle="modal" data-target="#alpisteModal">{{'PRODUCTS.SEEDS.BIRDSEED.TITLE' | translate}}</h3>
+          <h3 data-toggle="modal" class="viewModal" data-target="#birdSeedModal">{{'PRODUCTS.SEEDS.BIRDSEED.TITLE' | translate}}</h3>
           <p class="products-content">
               {{'PRODUCTS.SEEDS.BIRDSEED.CONTENT' | translate}}
           </p>
@@ -325,68 +399,32 @@
 
     <div class="row products-wrapp">
         <div class="col-md-6">
-          <h3>{{'PRODUCTS.SEEDS.YELLOWCORN.TITLE' | translate}}</h3>
+          <h3 data-toggle="modal" class="viewModal" data-target="#yellowCornModal">{{'PRODUCTS.SEEDS.YELLOWCORN.TITLE' | translate}}</h3>
           <p class="products-content">
               {{'PRODUCTS.SEEDS.YELLOWCORN.CONTENT' | translate}}
           </p>
-          <div>
-            <img class="market" src="../../../assets/images/marcador.svg" alt="">
-            <div class="corigin">
-              {{'COUNTRIES.USA' | translate}}
-            </div>
-            <div class="corigin">
-              {{'COUNTRIES.CAN' | translate}}
-            </div>
-          </div>
         </div>
         <div class="col-md-6">
-          <h3>{{'PRODUCTS.SEEDS.POPCORN.TITLE' | translate}}</h3>
+          <h3 data-toggle="modal" class="viewModal" data-target="#popCornModal">{{'PRODUCTS.SEEDS.POPCORN.TITLE' | translate}}</h3>
           <p class="products-content">
               {{'PRODUCTS.SEEDS.POPCORN.CONTENT' | translate}}
           </p>
-          <div>
-            <img class="market" src="../../../assets/images/marcador.svg" alt="">
-            <div class="corigin">
-              {{'COUNTRIES.USA' | translate}}
-            </div>
-            <div class="corigin">
-              {{'COUNTRIES.CAN' | translate}}
-            </div>
-          </div>
         </div>
     </div>
 
 
     <div class="row products-wrapp">
         <div class="col-md-6">
-          <h3>{{'PRODUCTS.SEEDS.BEANS.TITLE' | translate}}</h3>
+          <h3 data-toggle="modal" class="viewModal" data-target="#beansModal">{{'PRODUCTS.SEEDS.BEANS.TITLE' | translate}}</h3>
           <p class="products-content">
               {{'PRODUCTS.SEEDS.BEANS.CONTENT' | translate}}
           </p>
-          <div>
-            <img class="market" src="../../../assets/images/marcador.svg" alt="">
-            <div class="corigin">
-              {{'COUNTRIES.USA' | translate}}
-            </div>
-            <div class="corigin">
-              {{'COUNTRIES.CAN' | translate}}
-            </div>
-          </div>
         </div>
         <div class="col-md-6">
-          <h3>{{'PRODUCTS.SEEDS.OATS.TITLE' | translate}}</h3>
+          <h3 data-toggle="modal" class="viewModal" data-target="#oatsModal">{{'PRODUCTS.SEEDS.OATS.TITLE' | translate}}</h3>
           <p class="products-content">
               {{'PRODUCTS.SEEDS.OATS.CONTENT' | translate}}
           </p>
-          <div>
-            <img class="market" src="../../../assets/images/marcador.svg" alt="">
-            <div class="corigin">
-              {{'COUNTRIES.USA' | translate}}
-            </div>
-            <div class="corigin">
-              {{'COUNTRIES.CAN' | translate}}
-            </div>
-          </div>
         </div>
     </div>
 
@@ -406,22 +444,10 @@
 
     <div class="row products-wrapp">
         <div class="col-md-6">
-          <h3>{{'PRODUCTS.TUBERS.POTATOE.TITLE' | translate}}</h3>
+          <h3 data-toggle="modal" class="viewModal" data-target="#potatoeModal">{{'PRODUCTS.TUBERS.POTATOE.TITLE' | translate}}</h3>
           <p class="products-content">
               {{'PRODUCTS.TUBERS.POTATOE.CONTENT' | translate}}
           </p>
-          <div>
-            <img class="market" src="../../../assets/images/marcador.svg" alt="">
-            <div class="corigin">
-              {{'COUNTRIES.USA' | translate}}
-            </div>
-            <div class="corigin">
-              {{'COUNTRIES.CAN' | translate}}
-            </div>
-            <div class="corigin">
-              {{'COUNTRIES.HOL' | translate}}
-            </div>
-          </div>
         </div>
         <div class="col-md-6">
 
@@ -444,31 +470,16 @@
 
     <div class="row products-wrapp">
         <div class="col-md-6">
-          <h3>{{'PRODUCTS.SPICES.CINAMON.TITLE' | translate}}</h3>
+          <h3 data-toggle="modal" class="viewModal" data-target="#cinnamonModal">{{'PRODUCTS.SPICES.CINAMON.TITLE' | translate}}</h3>
           <p class="products-content">
               {{'PRODUCTS.SPICES.CINAMON.CONTENT' | translate}}
           </p>
-          <div>
-            <img class="market" src="../../../assets/images/marcador.svg" alt="">
-            <div class="corigin">
-              {{'COUNTRIES.SIRLK' | translate}}
-            </div>
-          </div>
         </div>
         <div class="col-md-6">
-          <h3>{{'PRODUCTS.SPICES.JAMAICAFLOWERS.TITLE' | translate}}</h3>
+          <h3 data-toggle="modal" class="viewModal" data-target="#jamaicaFlowersModal">{{'PRODUCTS.SPICES.JAMAICAFLOWERS.TITLE' | translate}}</h3>
           <p class="products-content">
               {{'PRODUCTS.SPICES.JAMAICAFLOWERS.CONTENT' | translate}}
           </p>
-          <div>
-            <img class="market" src="../../../assets/images/marcador.svg" alt="">
-            <div class="corigin">
-              {{'COUNTRIES.NIG' | translate}}
-            </div>
-            <div class="corigin">
-              {{'COUNTRIES.EG' | translate}}
-            </div>
-          </div>
         </div>
     </div>
 
@@ -487,46 +498,16 @@
 
     <div class="row products-wrapp">
         <div class="col-md-6">
-          <h3>{{'PRODUCTS.BULBS.AJOS.TITLE' | translate}}</h3>
+          <h3 data-toggle="modal" class="viewModal" data-target="#ajosModal">{{'PRODUCTS.BULBS.AJOS.TITLE' | translate}}</h3>
           <p class="products-content">
               {{'PRODUCTS.BULBS.AJOS.CONTENT' | translate}}
           </p>
-          <div>
-            <img class="market" src="../../../assets/images/marcador.svg" alt="">
-            <div class="corigin">
-              {{'COUNTRIES.CHIN' | translate}}
-            </div>
-          </div>
         </div>
         <div class="col-md-6">
-          <h3>{{'PRODUCTS.BULBS.ONIONS.TITLE' | translate}}</h3>
+          <h3 data-toggle="modal" class="viewModal" data-target="#onionsModal">{{'PRODUCTS.BULBS.ONIONS.TITLE' | translate}}</h3>
           <p class="products-content">
               {{'PRODUCTS.BULBS.ONIONS.CONTENT' | translate}}
           </p>
-          <div>
-            <img class="market" src="../../../assets/images/marcador.svg" alt="">
-            <div class="corigin">
-              {{'COUNTRIES.USA' | translate}}
-            </div>
-            <div class="corigin">
-              {{'COUNTRIES.GUA' | translate}}
-            </div>
-            <div class="corigin">
-              {{'COUNTRIES.NIC' | translate}}
-            </div>
-            <div class="corigin">
-              {{'COUNTRIES.PERU' | translate}}
-            </div>
-            <div class="corigin">
-              {{'COUNTRIES.ESP' | translate}}
-            </div>
-            <div class="corigin">
-              {{'COUNTRIES.HOL' | translate}}
-            </div>
-            <div class="corigin">
-              {{'COUNTRIES.CHI' | translate}}
-            </div>
-          </div>
         </div>
     </div>
 
