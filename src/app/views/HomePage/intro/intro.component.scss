@@ -1,11 +1,16 @@
 .home-intro-section {
-  background: url('../../../../assets/images/home-bg.svg') no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: url('../../../../assets/images/Intro-top.svg') left center no-repeat,
+    url('../../../../assets/images/Intro-botton-center.svg') bottom center no-repeat,
+    url('../../../../assets/images/Intro-botton.svg') bottom right no-repeat;
+
+
+
+  // -webkit-background-size: cover;
+  // -moz-background-size: cover;
+  // -o-background-size: cover;
+  // background-size: cover;
   padding: 50px 0;
-  color: #ffffff;
+  // color: #ffffff;
   overflow: hidden
 }
 .home-intro-title {
