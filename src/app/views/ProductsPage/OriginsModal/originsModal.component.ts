@@ -9,6 +9,7 @@ import { Component, OnInit, Input } from '@angular/core';
 export class OriginsModalComponent implements OnInit{
   @Input() Title: string;
   @Input() Identificator: string;
+  @Input() prBg: string;
   @Input() Countries:object;
 
   constructor() { }

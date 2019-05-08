@@ -53,3 +53,115 @@ border-radius: 4px;
 color: white;
 font-weight: lighter;
 }
+
+
+.bg-origin-product{
+  width: 100%;
+  height: 100%;
+  min-width: 218px;
+  min-height: 155px;
+  margin: 0 auto;
+  display: block;
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+
+    .pr-Apple{
+      background-image: url('https://wallpapermemory.com/uploads/406/apple-fruit-wallpaper-full-hd-1920x1080-295951.jpg');
+    }
+
+    .pr-Grapes{
+      background-image: url('https://images6.alphacoders.com/409/409818.jpg');
+    }
+
+    .pr-Pears{
+      background-image: url('https://images2.alphacoders.com/458/458813.jpg');
+    }
+
+    .pr-Tangerine{
+      background-image: url('https://s2.best-wallpaper.net/wallpaper/3840x2160/1901/Fresh-tangerines-fruit-basket_3840x2160.jpg');
+    }
+
+    .pr-Oranges{
+      background-image: url('http://orangaddict.com/wp-content/uploads/2016/06/orange-fruit-hd-wallpapers-download-desktop-13.jpg');
+    }
+
+    .pr-Kiwis{
+      background-image: url('http://s1.1zoom.me/big0/302/360568-blackangel.jpg');
+    }
+
+    .pr-Peach{
+      background-image: url('https://www.wallpaperup.com/uploads/wallpapers/2015/04/04/656342/a60cd31f430e8beb217f90fa5ef22886-700.jpg');
+    }
+
+    .pr-Nectarines{
+      background-image: url('https://img3.goodfon.com/wallpaper/nbig/b/8f/nektarin-persiki-frukty-yagody-4290.jpg');
+    }
+
+    .pr-Plums{
+      background-image: url('https://wallpapersmug.com/large/cd0521/plum_blue_fruits_basket.jpg');
+    }
+
+    .pr-Avocado{
+      background-image: url('https://data.1freewallpapers.com/download/avocado-fruit-stone.jpg');
+    }
+
+    /* Semillas */
+
+    .pr-Linseed{
+      background-image: url('https://www.microvorestore.com/wp-content/uploads/2018/04/flax-seed-1274944_960_720.jpg');
+    }
+
+    .pr-barley{
+      background-image: url('http://files.all-free-download.com//downloadfiles/wallpapers/1920_1200/barley_wallpaper_plants_nature_1160.jpg');
+    }
+
+    .pr-SunFlowerSeeds{
+      background-image: url('https://torange.biz/photo/32/HD/sunflower-seeds-32754.jpg');
+    }
+
+    .pr-Alpiste{
+      background-image: url('https://cdn2.melodijolola.com/media/files/styles/nota_imagen/public/field/image/alpiste.jpg');
+    }
+
+    .pr-YellowCorn{
+      background-image: url('https://wallpapercave.com/wp/wp2570201.jpg');
+    }
+
+    .pr-PopCorn{
+      background-image: url('http://s1.1zoom.me/b5050/99/Corn_Popcorn_484464_3840x2400.jpg');
+    }
+
+    .pr-Beans{
+      background-image: url('https://www.telemundo.com/sites/nbcutelemundo/files/images/gallery/2016/09/09/frijoles-negros-en-cuchara.jpg');
+    }
+
+    .pr-Oats{
+      background-image: url('https://www.sheknows.com/wp-content/uploads/2018/12/rj8mfxcwu4ld9e8ee98c.jpeg');
+    }
+
+    /* Tuberculos */
+
+    .pr-Potatoes{
+      background-image: url('http://yesofcorsa.com/wp-content/uploads/2018/07/Peeling-Potatoes-High-Quality-Wallpaper-1024x576.jpg');
+    }
+
+    /* Especias */
+
+    .pr-Cinnamon{
+      background-image: url('https://stmed.net/sites/default/files/cinnamon-wallpapers-28233-6521631.jpg');
+    }
+
+    .pr-FlowerOfJamaica{
+      background-image: url('https://www.rainfloweressence.com/wp-content/uploads/2014/10/pink-hibuscus.jpg');
+    }
+
+    /* Bulbos */
+
+    .pr-Garlics{
+      background-image: url('https://i.kinja-img.com/gawker-media/image/upload/t_original/ghdn5gyp8pa8vnfdpzfa.jpg');
+    }
+
+    .pr-Onions{
+      background-image: url('https://www.telemundo.com/sites/nbcutelemundo/files/images/promo/video_clip/2015/05/27/cebolla-roja.jpg');
+    }
