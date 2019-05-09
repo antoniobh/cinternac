@@ -1,5 +1,5 @@
 .home-intro-section {
-  background: url('../../../../assets/images/home-bg-bg.svg') right no-repeat;
+  background: url('../../../../assets/images/Intro-botton.svg') right bottom no-repeat;
 
 
 
@@ -60,6 +60,11 @@
   font-size: 14px;
 }
 
+.float-pic{
+  position: relative;
+  top: -110px;
+  left: -7%;
+}
 @media (max-width: 767px) {
   .home-intro-section {
     padding: 100px 0 60px;
