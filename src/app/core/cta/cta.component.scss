@@ -7,27 +7,32 @@
   color: white;
 }
 .bgCta{
-      background-size: contain;
+      background-size: cover;
       background-repeat: no-repeat;
       background-position: 100%,0px;
 }
 
 .bgFrutas{
-  background-image: url('../../../assets/images/frutas.png')
+  background: url('../../../assets/images/bgb.png')repeat,
+              url('../../../assets/images/frutas.png') center no-repeat;
 }
 
 .bgGranos{
-  background-image: url('../../../assets/images/granos.png')
+  background: url('../../../assets/images/bgb.png')repeat,
+              url('../../../assets/images/granos.png') center no-repeat;
 }
 
 .bgTuberculos{
-  background-image: url('../../../assets/images/papas.png')
+  background: url('../../../assets/images/bgb.png')repeat,
+              url('../../../assets/images/papas.png') center no-repeat;
 }
 
 .bgSpecias{
-  background-image: url('../../../assets/images/especias.png')
+  background: url('../../../assets/images/bgb.png')repeat,
+              url('../../../assets/images/especias.jpg') center no-repeat;
 }
 
 .bgBulbos{
-  background-image: url('../../../assets/images/bulbos.png')
+  background: url('../../../assets/images/bgb.png')repeat,
+              url('../../../assets/images/bulbos.png') center no-repeat;
 }

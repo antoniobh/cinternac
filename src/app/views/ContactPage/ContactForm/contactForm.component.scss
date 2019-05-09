@@ -7,3 +7,11 @@
   margin: 10px;
   border-radius: 3px;
 }
+
+
+@media screen and (max-width:576px){
+  .link{
+    margin: 0px;
+    font-size: 14px;
+  }
+}
