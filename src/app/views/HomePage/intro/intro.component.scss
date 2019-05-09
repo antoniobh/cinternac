@@ -1,5 +1,5 @@
 .home-intro-section {
-  background: url('../../../../assets/images/Intro-botton.svg') right bottom no-repeat;
+  // background: url('../../../../assets/images/Intro-botton.svg') right bottom no-repeat;
 
 
 
@@ -7,7 +7,7 @@
   // -moz-background-size: cover;
   // -o-background-size: cover;
   // background-size: cover;
-  padding: 50px 0;
+  // padding: 50px 0;
   // color: #ffffff;
   overflow: hidden
 }
@@ -29,7 +29,7 @@
 }
 .intro-product {
   position: relative;
-  top: 100px;
+  top: 150px;
   left: 60px;
 }
 .intro-product-link {
@@ -62,9 +62,91 @@
 
 .float-pic{
   position: relative;
-  top: -110px;
+  top: -260px;
   left: -7%;
 }
+
+.cloud, .world, .fruits{
+  position: absolute;
+  z-index: -1;
+}
+.fruits{
+  -webkit-animation: 60s rotate linear infinite;
+  animation: 60s rotate linear infinite;
+  -webkit-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+}
+
+.world{
+
+}
+
+
+      @keyframes rotate {from {transform: rotate(0deg);}
+            to {transform: rotate(360deg);}}
+      @-webkit-keyframes rotate {from {-webkit-transform: rotate(0deg);}
+        to {-webkit-transform: rotate(360deg);}}
+
+
+
+@media screen and (min-width: 320px) {
+  .intro-product {
+    top: 116px;
+    left: 10%;
+    margin-bottom: 16%;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 576px) {
+  .intro-product {
+    top:66px;
+    left: 15%;
+    width: 80%;
+    margin-bottom: 33%;
+    margin-top: 10%;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 600px) {
+  .intro-product {
+    top:66px;
+    left: 15%;
+    width: 80%;
+    margin-bottom: 33%;
+    margin-top: 5%;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 768px) {
+  .intro-product {
+    top:40px;
+    left: 15%;
+    width: 80%;
+    margin-bottom: 40%;
+    margin-top: 0%;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 959px) {
+  .intro-product {
+    top:55px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20%;
+  }
+}
+
+@media screen and (min-width: 960px) and (max-width: 1042px) {
+  .intro-product {
+    top:150px;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20%;
+  }
+}
+
+
+
 @media (max-width: 767px) {
   .home-intro-section {
     padding: 100px 0 60px;
@@ -81,10 +163,6 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 27px;
-  }
-  .intro-product {
-      top: 0;
-      left: 20px;
   }
   .intro-product-link {
       top: -80px;
