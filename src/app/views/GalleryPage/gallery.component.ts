@@ -14,7 +14,7 @@ import * as jq from "jquery";
 export class GalleryComponent{
 
   Pictures:any = images.Selected;
-
+  currentPicture:string;
 
 
   constructor(
@@ -25,6 +25,6 @@ export class GalleryComponent{
       }
 
       showPicture(Picture){
-        console.log(Picture)
+        this.currentPicture = Picture;
       }
 }

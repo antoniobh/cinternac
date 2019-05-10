@@ -1,12 +1,12 @@
 <app-header></app-header>
 <div style="height: 100px; width: 100%"></div>
 
-
+<app-FullScreen Picture="{{currentPicture}}"></app-FullScreen>
 
 <div class="container-fluid bg-linear-gradiant">
   <div class="container">
     <div *ngFor="let Picture of Pictures" class="tumblr-container">
-        <img (click)="showPicture(Picture)" class="tumblr" src="../../../assets/gallery/{{Picture}}" alt="">
+        <img (click)="showPicture(Picture)" data-toggle="modal" data-target="#fullScreenModal" class="tumblr" src="../../../assets/gallery/{{Picture}}" alt="">
     </div>
   </div>
 </div>

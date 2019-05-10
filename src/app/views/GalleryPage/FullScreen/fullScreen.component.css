@@ -1,0 +1,11 @@
+.modal-content{
+  overflow: hidden !important;
+}
+
+.fullImage{
+  width: 100%;
+}
+
+.modal-body{
+  padding: 0%;
+}

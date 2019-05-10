@@ -25,7 +25,7 @@ import { HomeComponent } from './HomePage/home.component';
 import { ProductsComponent } from './ProductsPage/products.component';
     import { OriginsModalComponent } from './ProductsPage/OriginsModal/originsModal.component';
 import { GalleryComponent } from './GalleryPage/gallery.component';
-import { GalleryGridComponent } from './GalleryPage/GalleryGrid/galleryGrid.component';
+import { FullScreenComponent } from './GalleryPage/FullScreen/fullScreen.component';
 
 import { ContactComponent } from './ContactPage/contact.component';
 import { ContactFormComponent } from './ContactPage/ContactForm/contactForm.component';
@@ -93,7 +93,7 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
     ProductsComponent,
         OriginsModalComponent,
     GalleryComponent,
-    GalleryGridComponent,
+    FullScreenComponent,
     ContactComponent,
     ContactFormComponent,
     HeaderComponent,
