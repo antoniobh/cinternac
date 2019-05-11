@@ -1,6 +1,47 @@
+<!-- Lista de fotos -->
 <div class="modal fade" id="fullScreenModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
+      <div id="carouselImageIndicators" class="carousel slide" data-ride="carousel">
+
+        <div class="carousel-inner">
+          <ng-container *ngFor="let Pic of Pictures">
+
+            <div
+                [class.active]="Pic === Picture"
+                class="carousel-item">
+              <img class="d-block w-100" src="../../../assets/gallery/{{Pic}}">
+            </div>
+
+          </ng-container>
+        </div>
+
+
+        <a class="carousel-control-prev" href="#carouselImageIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselImageIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Lista de fotos -->
+<!-- <div class="modal fade" id="fullScreenModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+
+      <div class="tumblrContainer">
+        <div *ngFor="let Picture of Pictures; let i=index" >
+          <img id="{{i}}" (click)="showPicture(Picture)" data-toggle="modal" data-target="#fullScreenModal" class="tumblr" src="../../../assets/gallery/{{Picture}}" alt="">
+        </div>
+      </div>
+
         <div class="modal-body">
           <div>
               <img class="fullImage" src="../../../../assets/gallery/{{Picture}}" alt="">
@@ -8,4 +49,4 @@
         </div>
     </div>
   </div>
-</div>
+</div> -->

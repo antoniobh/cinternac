@@ -9,3 +9,17 @@
 .modal-body{
   padding: 0%;
 }
+
+
+.tumblrContainer{
+  position: fixed;
+  top: 0;
+  left: 0;
+  left: 0;
+  right: 0;
+}
+.tumblrContainer img{
+  display: block;
+  float: left;
+  width: 50px;
+}
