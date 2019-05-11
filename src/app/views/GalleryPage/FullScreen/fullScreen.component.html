@@ -7,10 +7,15 @@
         <div class="carousel-inner">
           <ng-container *ngFor="let Pic of Pictures">
 
-            <div
-                [class.active]="Pic === Picture"
-                class="carousel-item">
-              <img class="d-block w-100" src="../../../assets/gallery/{{Pic}}">
+            <div *ngIf="true; then active else inactive">
+                <ng-template #active class="carousel-item active">
+                  <img class="d-block w-100" src="../../../assets/gallery/{{Pic}}">
+                </ng-template>
+
+                <ng-template #inactive class="carousel-item">
+                  <img class="d-block w-100" src="../../../assets/gallery/{{Pic}}">
+                </ng-template>
+
             </div>
 
           </ng-container>
